@@ -85,14 +85,104 @@ caption = "Length-weight data and fits to commercially-derived sex-specific verm
 label = 'len-weight-fit')
 ```
 
-
 <!-- ====================================================================== -->
-<!-- ********************     Modelling Results  ************************** --> 
+<!-- *********************    Selectivity            ********************** --> 
 <!-- ====================================================================== -->
 
 ```{r, results = 'asis'}
 add_figure(
-filein = file.path(jit_fig_loc, "jitterplot.png"), 
-caption = "Length-weight data and fits to commercially-derived sex-specific vermilion samples",
-label = 'len-weight-fit')
+filein = file.path(paste0(mod_loc, "/plots"), "sel01_multiple_fleets_length1.png"), 
+caption = "Selectivity at length by fleet",
+label = 'selex')
+```
+
+
+<!-- ====================================================================== -->
+<!-- ***********************  Jitters  ************************************ --> 
+<!-- ====================================================================== -->
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "Jitter Results", "jitterplot_01.png"), 
+caption = "Jitter runs for the squarespot rockfish reference model, with jitter run number on the x-axis and -log likelihood value on the y-axis. Blue dot are models that match the likelihood value of the reference model, while red dots deviate from the reference model. All red dots are above the blue dots, indicating no better fit to the reference model was found",
+label = 'jitter_01')
+```
+
+
+<!-- ====================================================================== -->
+<!-- ****************** Fit to the Length Data **************************** --> 
+<!-- ====================================================================== -->
+
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "comp_lenfit__multi-fleet_comparison.png"), 
+caption = "Pearson residuals for the commercial (top panel) and recreational (bottom panel) fleet. Closed bubble are positive residuals (observed > expected) and open bubbles are negative residuals (observed < expected)",
+label = 'com-rec-pearson')
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "comp_lendat_data_weighting_TA1.8_Commercial.png"), 
+caption = "Mean length index from the commercial fishery with 95 percent confidence intervals based on sample sizes and data weighting",
+label = 'com-mean-len-fit')
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "comp_lendat_data_weighting_TA1.8_Commercial.png"), 
+caption = "Mean length index from the recreational fishery with 95 percent confidence intervals based on sample sizes and data weighting",
+label = 'rec-mean-len-fit')
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "comp_lenfit__aggregated_across_time.png"), 
+caption = "Aggregated length comps over all years",
+label = 'agg-len-fit')
+```
+
+
+<!-- ====================================================================== -->
+<!-- ****************** Fit to the Age Data ******************************* --> 
+<!-- ====================================================================== -->
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "comp_condAALdat_data_weighting_TA1.8_condAgeCommercial.png"), 
+caption = "Mean age from conditional age-at-length data for the Commercial",
+label = 'com-mean-caal')
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "comp_condAALdat_data_weighting_TA1.8_condAgeRecreational.png"), 
+caption = "Mean age observations from the conditional age-at-length data from the Recreational fishery",
+label = 'rec-mean-caal')
+```
+
+
+<!-- ====================================================================== -->
+<!-- ****************** Fit to the Index*********************************** --> 
+<!-- ====================================================================== -->
+
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "index2_cpuefit_Recreational.png"),
+caption = "Fit to the ORBS recreational survey index of abundance",
+label = 'orbs-index-fit')
+```
+
+
+<!-- ====================================================================== -->
+<!-- ************************* Selectivity ******************************** --> 
+<!-- ====================================================================== -->
+
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "sel01_multiple_fleets_length1.png"),
+caption = "Length-based selectivity curves for the commercial and recreational fisheries",
+label = 'fleet_selectivity')
 ```

@@ -6,7 +6,7 @@ library(sa4ss)
 library(r4ss)
 
 # Specify the directory for the document
-setwd("C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA 2021/OR/write_up")
+setwd("C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up")
 
 # Create the needed items to generate the "right" template that would be based on the inputs here:
  sa4ss::draft(authors = c("Jason M. Cope", "Alison D. Whitman"),
@@ -25,12 +25,11 @@ setwd("C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA 2021/OR/wri
 # Create object based on a new model
 ###########################################################################
 
-base_name = "Reference model"
-mod_loc = file.path(
-#  "//nwcfile/FRAM/Assessments/CurrentAssessments/vermilion_2021/OR/models",
-  "C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA 2021/OR/write_up/models",
-  base_name)
-
+ base_name = "Reference model"
+ mod_loc = file.path(
+   "C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models",
+   base_name)
+ 
 sa4ss::read_model(
   mod_loc = mod_loc,
   create_plots = FALSE, 

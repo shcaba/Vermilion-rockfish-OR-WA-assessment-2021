@@ -34,30 +34,14 @@ if(file.exists("00mod.Rdata")){
   print("Model output not being read. Please run the read_model() function.")
 }
 
-stock_fig_loc = "C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA 2021/OR/write_up/figures/stock"
+base_name = "Reference model"
+ mod_loc = file.path(
+   "C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models",
+   base_name)
 
-bio_fig_loc = "C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA 2021/OR/write_up/figures/biology_plots"
+stock_fig_loc = "C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/figures/stock"
 
-bio_fig_loc = "C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA 2021/OR/write_up/figures/Reference Model/Jitter Results"
-
-#sens_wd = "//nwcfile/FRAM/Assessments/CurrentAssessments/DataModerate_2021/Squarespot_Rockfish/models/_sensitivities/_plots"
-
-#sensi_data = "//nwcfile/FRAM/Assessments/CurrentAssessments/DataModerate_2021/Squarespot_Rockfish/models/_sensitivities/_plots/Data_sensis"
-
-#sensi_modspecs = "//nwcfile/FRAM/Assessments/CurrentAssessments/DataModerate_2021/Squarespot_Rockfish/models/_sensitivities/_plots/Mod_specs"
-
-#likeprof_wd = "//nwcfile/FRAM/Assessments/CurrentAssessments/DataModerate_2021/Squarespot_Rockfish/models/_likeprof/"
-
-#comm_fig_loc = "//nwcfile/FRAM/Assessments/CurrentAssessments/DataModerate_2021/Squarespot_Rockfish/data/catch_all/plots"
-
-#data_fig_loc = "//nwcfile/FRAM/Assessments/CurrentAssessments/vermilion_2021/OR/biology_plots"
-
-#survey_loc = "//nwcfile/FRAM/Assessments/CurrentAssessments/DataModerate_2021/Squarespot_Rockfish/data/Trawl Survey Catch"
-
-#retro_loc="//nwcfile/FRAM/Assessments/CurrentAssessments/DataModerate_2021/Squarespot_Rockfish/models/_retro/"
-
-#forecast_loc="//nwcfile/FRAM/Assessments/CurrentAssessments/DataModerate_2021/Squarespot_Rockfish/models/_forecasts/"
-
+bio_fig_loc = "C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/figures/biology_plots"
 
 #Add further objects or folders here 
 
