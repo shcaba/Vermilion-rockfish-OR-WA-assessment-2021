@@ -1,7 +1,4 @@
-Model selection for binomial and positive delta-GLM for Oregon ORBS CPUE index. Selected models are highlighted in grey. ,,,,
-,,,,
-Model,Binomial,,Positive (log CPUE),
-(delta-GLM),AIC,delta AIC,AIC,delta AIC
+Model (delta-GLM),Binomial AIC,Binomial delta AIC,Positive (log CPUE) AIC,Positive (log CPUE) delta AIC
 YEAR,6494,-,14705,-
 YEAR + BOAT TYPE,6483,11,13021,1684
 YEAR + MONTH,6496,2,14640,65

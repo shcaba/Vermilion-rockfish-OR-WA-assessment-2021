@@ -9,6 +9,10 @@
 
 \newpage
 
+\include{tex_tables/OR_vermilion_mgmt.tex}
+
+\newpage
+
 \include{tex_tables/age-error-models.tex}
 
 \newpage

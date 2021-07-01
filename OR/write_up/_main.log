@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.2 (TeX Live 2021/W32TeX)  (format=lualatex 2021.5.17)  30 JUN 2021 17:16
+This is LuaHBTeX, Version 1.13.2 (TeX Live 2021/W32TeX)  (format=lualatex 2021.5.17)  30 JUN 2021 18:38
  restricted system commands enabled.
 **_main.tex
 (./_main.tex
@@ -1529,8 +1529,8 @@ Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
 pdftex.def
 File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
 \BKM@id=\count380
-)) (./_main.aux (./tex_tables/Catches_All_Years.aux) (./tex_tables/age-error-mo
-dels.aux)
+)) (./_main.aux (./tex_tables/Catches_All_Years.aux) (./tex_tables/OR_vermilion
+_mgmt.aux) (./tex_tables/age-error-models.aux)
 
 LaTeX Warning: Label `tab:model-param' multiply defined.
 
@@ -2090,34 +2090,29 @@ e 352.
 warning  (pdf backend): ignoring duplicate destination with the name 'page.ii'
 [2]
 warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
-[1] [2]
+[1] [2] [3] [4] [5] [6] [7] [8] [9] [10]
 
-LaTeX Warning: Reference `tab:Catches_All_Years' on page 3 undefined on input l
-ine 478.
+LaTeX Warning: Reference `tab:len-at-age-samps' on page 11 undefined on input l
+ine 814.
 
-[3] [4] [5] [6] [7] [8] [9]
+[11] [12] [13] [14]
 
-LaTeX Warning: Reference `tab:len-at-age-samps' on page 10 undefined on input l
-ine 802.
+LaTeX Warning: Reference `tab:hkl-index-vals' on page 15 undefined on input lin
+e 1023.
 
-[10] [11] [12] [13]
+[15] [16] [17]
 
-LaTeX Warning: Reference `tab:hkl-index-vals' on page 14 undefined on input lin
-e 1011.
-
-[14] [15] [16]
-
-LaTeX Warning: Reference `tab:params' on page 17 undefined on input line 1198.
+LaTeX Warning: Reference `tab:params' on page 18 undefined on input line 1210.
 
 
-LaTeX Warning: Reference `fig:mod-est-len-age' on page 17 undefined on input li
-ne 1198.
+LaTeX Warning: Reference `fig:mod-est-len-age' on page 18 undefined on input li
+ne 1210.
 
 
-LaTeX Warning: Reference `fig:mod-est-len-age' on page 17 undefined on input li
-ne 1198.
+LaTeX Warning: Reference `fig:mod-est-len-age' on page 18 undefined on input li
+ne 1210.
 
-[17] [18] [19] [20] [21
+[18] [19] [20] [21
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'ref-cope_i
@@ -2129,6 +2124,14 @@ mplementing_2013'
  (./tex_tables/Catches_All_Years.tex [24
 
 ] [25]) [26]
+\openout2 = tex_tables/OR_vermilion_mgmt.aux
+ (./tex_tables/OR_vermilion_mgmt.tex [27
+
+
+
+
+
+])
 \openout2 = tex_tables/age-error-models.aux
  (./tex_tables/age-error-models.tex
 Overfull \hbox (12.37338pt too wide) in paragraph at lines 20--20
@@ -2342,21 +2345,22 @@ Overfull \hbox (1.68805pt too wide) in paragraph at lines 80--80
  []|\TU/lmr/m/n/9 3| 
  []
 
-[27
+[28
 
 
 
 
 
-] [28]) [29
+
+] [29]) [30
 
 
 
 
 
-] [30] [31] [32]
+] [31] [32] [33]
 \openout2 = tex_tables/likelihoods.aux
- (./tex_tables/likelihoods.tex) [33
+ (./tex_tables/likelihoods.tex) [34
 
 
 ]
@@ -2391,7 +2395,7 @@ Overfull \hbox (41.71796pt too wide) in alignment at lines 39--39
  [][][][] 
  []
 
-) [34
+) [35
 
 
 
@@ -2457,7 +2461,7 @@ Overfull \hbox (7.39053pt too wide) in alignment at lines 79--99
  [][][][][][][][][] 
  []
 
-[35
+[36
 
 
 
@@ -2471,14 +2475,14 @@ Overfull \hbox (7.39053pt too wide) in alignment at lines 119--139
  [][][][][][][][][] 
  []
 
-[36]
+[37]
 Overfull \hbox (7.39053pt too wide) in alignment at lines 139--150
  [][][][][][][][][] 
  []
 
-[37]) [38]
+[38]) [39]
 <C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/
-OR/write_up/figures/stock/Vermilion_Map.png, id=1096, 328.90225pt x 544.26346pt
+OR/write_up/figures/stock/Vermilion_Map.png, id=1116, 328.90225pt x 544.26346pt
 >
 File: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 
 2021/OR/write_up/figures/stock/Vermilion_Map.png Graphic file (type png)
@@ -2486,13 +2490,13 @@ File: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment
 021/OR/write_up/figures/stock/Vermilion_Map.png>
 Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfis
 h OR WA assessment 2021/OR/write_up/figures/stock/Vermilion_Map.png  used on in
-put line 1603.
+put line 1619.
 (luatex.def)             Requested size: 375.17828pt x 620.84052pt.
 
-LaTeX Warning: Float too large for page by 34.0124pt on input line 1605.
+LaTeX Warning: Float too large for page by 34.0124pt on input line 1621.
 
 <C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/
-OR/write_up/figures/stock/TM_Vermilion_ORWA.png, id=1098, 521.5485pt x 325.215p
+OR/write_up/figures/stock/TM_Vermilion_ORWA.png, id=1118, 521.5485pt x 325.215p
 t>
 File: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 
 2021/OR/write_up/figures/stock/TM_Vermilion_ORWA.png Graphic file (type png)
@@ -2500,10 +2504,10 @@ File: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment
 021/OR/write_up/figures/stock/TM_Vermilion_ORWA.png>
 Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfis
 h OR WA assessment 2021/OR/write_up/figures/stock/TM_Vermilion_ORWA.png  used o
-n input line 1613.
+n input line 1629.
 (luatex.def)             Requested size: 398.34663pt x 248.39166pt.
 <C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/
-OR/write_up/models/Reference model/plots/data_plot.png, id=1100, 469.755pt x 46
+OR/write_up/models/Reference model/plots/data_plot.png, id=1120, 469.755pt x 46
 9.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 
 2021/OR/write_up/models/Reference model/plots/data_plot.png Graphic file (type 
@@ -2512,10 +2516,10 @@ png)
 021/OR/write_up/models/Reference model/plots/data_plot.png>
 Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfis
 h OR WA assessment 2021/OR/write_up/models/Reference model/plots/data_plot.png 
- used on input line 1623.
+ used on input line 1639.
 (luatex.def)             Requested size: 398.34032pt x 398.34032pt.
 <C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/
-OR/write_up/figures/biology_plots/AG_plot_lines_parameters.png, id=1102, 963.6p
+OR/write_up/figures/biology_plots/AG_plot_lines_parameters.png, id=1122, 963.6p
 t x 542.025pt>
 File: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 
 2021/OR/write_up/figures/biology_plots/AG_plot_lines_parameters.png Graphic fil
@@ -2524,10 +2528,10 @@ e (type png)
 021/OR/write_up/figures/biology_plots/AG_plot_lines_parameters.png>
 Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfis
 h OR WA assessment 2021/OR/write_up/figures/biology_plots/AG_plot_lines_paramet
-ers.png  used on input line 1633.
+ers.png  used on input line 1649.
 (luatex.def)             Requested size: 398.328pt x 224.0595pt.
 <C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/
-OR/write_up/models/Reference model/plots/bio1_sizeatage.png, id=1104, 469.755pt
+OR/write_up/models/Reference model/plots/bio1_sizeatage.png, id=1124, 469.755pt
  x 289.08pt>
 File: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 
 2021/OR/write_up/models/Reference model/plots/bio1_sizeatage.png Graphic file (
@@ -2536,10 +2540,10 @@ type png)
 021/OR/write_up/models/Reference model/plots/bio1_sizeatage.png>
 Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfis
 h OR WA assessment 2021/OR/write_up/models/Reference model/plots/bio1_sizeatage
-.png  used on input line 1643.
+.png  used on input line 1659.
 (luatex.def)             Requested size: 398.34032pt x 245.13249pt.
 <C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/
-OR/write_up/figures/biology_plots/Age_error_plot.png, id=1106, 648.92438pt x 40
+OR/write_up/figures/biology_plots/Age_error_plot.png, id=1126, 648.92438pt x 40
 5.01312pt>
 File: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 
 2021/OR/write_up/figures/biology_plots/Age_error_plot.png Graphic file (type pn
@@ -2548,10 +2552,10 @@ g)
 021/OR/write_up/figures/biology_plots/Age_error_plot.png>
 Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfis
 h OR WA assessment 2021/OR/write_up/figures/biology_plots/Age_error_plot.png  u
-sed on input line 1653.
+sed on input line 1669.
 (luatex.def)             Requested size: 398.34843pt x 248.62117pt.
 <C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/
-OR/write_up/models/Reference model/plots/bio6_maturity.png, id=1108, 469.755pt 
+OR/write_up/models/Reference model/plots/bio6_maturity.png, id=1128, 469.755pt 
 x 289.08pt>
 File: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 
 2021/OR/write_up/models/Reference model/plots/bio6_maturity.png Graphic file (t
@@ -2560,10 +2564,10 @@ ype png)
 021/OR/write_up/models/Reference model/plots/bio6_maturity.png>
 Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfis
 h OR WA assessment 2021/OR/write_up/models/Reference model/plots/bio6_maturity.
-png  used on input line 1663.
+png  used on input line 1679.
 (luatex.def)             Requested size: 398.34032pt x 245.13249pt.
 <C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/
-OR/write_up/models/Reference model/plots/bio9_fecundity_len.png, id=1110, 469.7
+OR/write_up/models/Reference model/plots/bio9_fecundity_len.png, id=1130, 469.7
 55pt x 289.08pt>
 File: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 
 2021/OR/write_up/models/Reference model/plots/bio9_fecundity_len.png Graphic fi
@@ -2572,10 +2576,10 @@ le (type png)
 021/OR/write_up/models/Reference model/plots/bio9_fecundity_len.png>
 Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfis
 h OR WA assessment 2021/OR/write_up/models/Reference model/plots/bio9_fecundity
-_len.png  used on input line 1673.
+_len.png  used on input line 1689.
 (luatex.def)             Requested size: 398.34032pt x 245.13249pt.
 <C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/
-OR/write_up/figures/biology_plots/Mdensityplots_OR_vermilion.png, id=1112, 803.
+OR/write_up/figures/biology_plots/Mdensityplots_OR_vermilion.png, id=1132, 803.
 0pt x 722.7pt>
 File: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 
 2021/OR/write_up/figures/biology_plots/Mdensityplots_OR_vermilion.png Graphic f
@@ -2584,11 +2588,11 @@ ile (type png)
 021/OR/write_up/figures/biology_plots/Mdensityplots_OR_vermilion.png>
 Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfis
 h OR WA assessment 2021/OR/write_up/figures/biology_plots/Mdensityplots_OR_verm
-ilion.png  used on input line 1683.
+ilion.png  used on input line 1699.
 (luatex.def)             Requested size: 398.35005pt x 358.51505pt.
 <C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/
 OR/write_up/figures/biology_plots/OR_Vermilion_Sexed Length vs Weight_withpower
-.png, id=1116, 722.7pt x 361.35pt>
+.png, id=1136, 722.7pt x 361.35pt>
 File: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 
 2021/OR/write_up/figures/biology_plots/OR_Vermilion_Sexed Length vs Weight_with
 power.png Graphic file (type png)
@@ -2597,11 +2601,11 @@ power.png Graphic file (type png)
 ower.png>
 Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfis
 h OR WA assessment 2021/OR/write_up/figures/biology_plots/OR_Vermilion_Sexed Le
-ngth vs Weight_withpower.png  used on input line 1693.
+ngth vs Weight_withpower.png  used on input line 1709.
 (luatex.def)             Requested size: 398.33534pt x 199.16766pt.
 <C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/
 OR/write_up/models/Reference model/plots/sel01_multiple_fleets_length1.png, id=
-1118, 469.755pt x 289.08pt>
+1138, 469.755pt x 289.08pt>
 File: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 
 2021/OR/write_up/models/Reference model/plots/sel01_multiple_fleets_length1.png
  Graphic file (type png)
@@ -2610,10 +2614,10 @@ File: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment
 
 Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfis
 h OR WA assessment 2021/OR/write_up/models/Reference model/plots/sel01_multiple
-_fleets_length1.png  used on input line 1703.
+_fleets_length1.png  used on input line 1719.
 (luatex.def)             Requested size: 398.34032pt x 245.13249pt.
 <C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/
-OR/write_up/models/Reference model/Jitter Results/jitterplot_01.png, id=1120, 4
+OR/write_up/models/Reference model/Jitter Results/jitterplot_01.png, id=1140, 4
 81.8pt x 481.8pt>
 File: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 
 2021/OR/write_up/models/Reference model/Jitter Results/jitterplot_01.png Graphi
@@ -2622,11 +2626,11 @@ c file (type png)
 021/OR/write_up/models/Reference model/Jitter Results/jitterplot_01.png>
 Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfis
 h OR WA assessment 2021/OR/write_up/models/Reference model/Jitter Results/jitte
-rplot_01.png  used on input line 1713.
+rplot_01.png  used on input line 1729.
 (luatex.def)             Requested size: 398.35004pt x 398.35004pt.
 <C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/
 OR/write_up/models/Reference model/plots/comp_lenfit__multi-fleet_comparison.pn
-g, id=1122, 469.755pt x 469.755pt>
+g, id=1142, 469.755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 
 2021/OR/write_up/models/Reference model/plots/comp_lenfit__multi-fleet_comparis
 on.png Graphic file (type png)
@@ -2635,11 +2639,11 @@ on.png Graphic file (type png)
 n.png>
 Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfis
 h OR WA assessment 2021/OR/write_up/models/Reference model/plots/comp_lenfit__m
-ulti-fleet_comparison.png  used on input line 1723.
+ulti-fleet_comparison.png  used on input line 1739.
 (luatex.def)             Requested size: 398.34032pt x 398.34032pt.
 <C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/
 OR/write_up/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_Comme
-rcial_fit.png, id=1124, 469.755pt x 469.755pt>
+rcial_fit.png, id=1144, 469.755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 
 2021/OR/write_up/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_
 Commercial_fit.png Graphic file (type png)
@@ -2648,11 +2652,11 @@ Commercial_fit.png Graphic file (type png)
 ommercial_fit.png>
 Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfis
 h OR WA assessment 2021/OR/write_up/models/Reference model/plots/comp_lenfit_da
-ta_weighting_TA1.8_Commercial_fit.png  used on input line 1733.
+ta_weighting_TA1.8_Commercial_fit.png  used on input line 1749.
 (luatex.def)             Requested size: 398.34032pt x 398.34032pt.
 <C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/
 OR/write_up/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_Recre
-ational_fit.png, id=1126, 469.755pt x 469.755pt>
+ational_fit.png, id=1146, 469.755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 
 2021/OR/write_up/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_
 Recreational_fit.png Graphic file (type png)
@@ -2661,11 +2665,11 @@ Recreational_fit.png Graphic file (type png)
 ecreational_fit.png>
 Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfis
 h OR WA assessment 2021/OR/write_up/models/Reference model/plots/comp_lenfit_da
-ta_weighting_TA1.8_Recreational_fit.png  used on input line 1743.
+ta_weighting_TA1.8_Recreational_fit.png  used on input line 1759.
 (luatex.def)             Requested size: 398.34032pt x 398.34032pt.
 <C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/
 OR/write_up/models/Reference model/plots/comp_lenfit__aggregated_across_time.pn
-g, id=1128, 469.755pt x 469.755pt>
+g, id=1148, 469.755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 
 2021/OR/write_up/models/Reference model/plots/comp_lenfit__aggregated_across_ti
 me.png Graphic file (type png)
@@ -2674,11 +2678,11 @@ me.png Graphic file (type png)
 e.png>
 Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfis
 h OR WA assessment 2021/OR/write_up/models/Reference model/plots/comp_lenfit__a
-ggregated_across_time.png  used on input line 1753.
+ggregated_across_time.png  used on input line 1769.
 (luatex.def)             Requested size: 398.34032pt x 398.34032pt.
 <C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/
 OR/write_up/models/Reference model/plots/comp_condAALfit_data_weighting_TA1.8_c
-ondAgeCommercial_fit.png, id=1130, 469.755pt x 469.755pt>
+ondAgeCommercial_fit.png, id=1150, 469.755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 
 2021/OR/write_up/models/Reference model/plots/comp_condAALfit_data_weighting_TA
 1.8_condAgeCommercial_fit.png Graphic file (type png)
@@ -2687,11 +2691,11 @@ File: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment
 .8_condAgeCommercial_fit.png>
 Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfis
 h OR WA assessment 2021/OR/write_up/models/Reference model/plots/comp_condAALfi
-t_data_weighting_TA1.8_condAgeCommercial_fit.png  used on input line 1763.
+t_data_weighting_TA1.8_condAgeCommercial_fit.png  used on input line 1779.
 (luatex.def)             Requested size: 398.34032pt x 398.34032pt.
 <C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/
 OR/write_up/models/Reference model/plots/comp_condAALfit_data_weighting_TA1.8_c
-ondAgeRecreational_fit.png, id=1132, 469.755pt x 469.755pt>
+ondAgeRecreational_fit.png, id=1152, 469.755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 
 2021/OR/write_up/models/Reference model/plots/comp_condAALfit_data_weighting_TA
 1.8_condAgeRecreational_fit.png Graphic file (type png)
@@ -2700,11 +2704,11 @@ File: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment
 .8_condAgeRecreational_fit.png>
 Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfis
 h OR WA assessment 2021/OR/write_up/models/Reference model/plots/comp_condAALfi
-t_data_weighting_TA1.8_condAgeRecreational_fit.png  used on input line 1773.
+t_data_weighting_TA1.8_condAgeRecreational_fit.png  used on input line 1789.
 (luatex.def)             Requested size: 398.34032pt x 398.34032pt.
 <C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/
 OR/write_up/models/Reference model/plots/index2_cpuefit_Recreational.png, id=11
-34, 469.755pt x 289.08pt>
+54, 469.755pt x 289.08pt>
 File: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 
 2021/OR/write_up/models/Reference model/plots/index2_cpuefit_Recreational.png G
 raphic file (type png)
@@ -2712,7 +2716,7 @@ raphic file (type png)
 021/OR/write_up/models/Reference model/plots/index2_cpuefit_Recreational.png>
 Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfis
 h OR WA assessment 2021/OR/write_up/models/Reference model/plots/index2_cpuefit
-_Recreational.png  used on input line 1783.
+_Recreational.png  used on input line 1799.
 (luatex.def)             Requested size: 398.34032pt x 245.13249pt.
 File: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 
 2021/OR/write_up/models/Reference model/plots/sel01_multiple_fleets_length1.png
@@ -2722,11 +2726,11 @@ File: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment
 
 Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfis
 h OR WA assessment 2021/OR/write_up/models/Reference model/plots/sel01_multiple
-_fleets_length1.png  used on input line 1793.
+_fleets_length1.png  used on input line 1809.
 (luatex.def)             Requested size: 398.34032pt x 245.13249pt.
 <C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/
 OR/write_up/models/Reference model/plots/ts7_Spawning_output_with_95_asymptotic
-_intervals_intervals.png, id=1137, 469.755pt x 289.08pt>
+_intervals_intervals.png, id=1157, 469.755pt x 289.08pt>
 File: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 
 2021/OR/write_up/models/Reference model/plots/ts7_Spawning_output_with_95_asymp
 totic_intervals_intervals.png Graphic file (type png)
@@ -2735,10 +2739,10 @@ totic_intervals_intervals.png Graphic file (type png)
 otic_intervals_intervals.png>
 Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfis
 h OR WA assessment 2021/OR/write_up/models/Reference model/plots/ts7_Spawning_o
-utput_with_95_asymptotic_intervals_intervals.png  used on input line 1803.
+utput_with_95_asymptotic_intervals_intervals.png  used on input line 1819.
 (luatex.def)             Requested size: 398.34032pt x 245.13249pt.
 <C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/
-OR/write_up/models/Reference model/plots/ts1_Total_biomass_(mt).png, id=1139, 4
+OR/write_up/models/Reference model/plots/ts1_Total_biomass_(mt).png, id=1159, 4
 69.755pt x 289.08pt>
 File: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 
 2021/OR/write_up/models/Reference model/plots/ts1_Total_biomass_(mt).png Graphi
@@ -2747,11 +2751,11 @@ c file (type png)
 021/OR/write_up/models/Reference model/plots/ts1_Total_biomass_(mt).png>
 Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfis
 h OR WA assessment 2021/OR/write_up/models/Reference model/plots/ts1_Total_biom
-ass_(mt).png  used on input line 1813.
+ass_(mt).png  used on input line 1829.
 (luatex.def)             Requested size: 398.34032pt x 245.13249pt.
 <C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/
 OR/write_up/models/Reference model/plots/ts9_Relative_spawning_output_intervals
-.png, id=1141, 469.755pt x 289.08pt>
+.png, id=1161, 469.755pt x 289.08pt>
 File: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 
 2021/OR/write_up/models/Reference model/plots/ts9_Relative_spawning_output_inte
 rvals.png Graphic file (type png)
@@ -2760,11 +2764,11 @@ rvals.png Graphic file (type png)
 vals.png>
 Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfis
 h OR WA assessment 2021/OR/write_up/models/Reference model/plots/ts9_Relative_s
-pawning_output_intervals.png  used on input line 1823.
+pawning_output_intervals.png  used on input line 1839.
 (luatex.def)             Requested size: 398.34032pt x 245.13249pt.
 <C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/
 OR/write_up/models/Reference model/plots/ts11_Age-0_recruits_(1000s)_with_95_as
-ymptotic_intervals.png, id=1143, 469.755pt x 289.08pt>
+ymptotic_intervals.png, id=1163, 469.755pt x 289.08pt>
 File: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 
 2021/OR/write_up/models/Reference model/plots/ts11_Age-0_recruits_(1000s)_with_
 95_asymptotic_intervals.png Graphic file (type png)
@@ -2773,10 +2777,10 @@ File: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment
 5_asymptotic_intervals.png>
 Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfis
 h OR WA assessment 2021/OR/write_up/models/Reference model/plots/ts11_Age-0_rec
-ruits_(1000s)_with_95_asymptotic_intervals.png  used on input line 1833.
+ruits_(1000s)_with_95_asymptotic_intervals.png  used on input line 1849.
 (luatex.def)             Requested size: 398.34032pt x 245.13249pt.
 <C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/
-OR/write_up/models/Reference model/plots/recdevs2_withbars.png, id=1145, 469.75
+OR/write_up/models/Reference model/plots/recdevs2_withbars.png, id=1165, 469.75
 5pt x 289.08pt>
 File: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 
 2021/OR/write_up/models/Reference model/plots/recdevs2_withbars.png Graphic fil
@@ -2785,10 +2789,10 @@ e (type png)
 021/OR/write_up/models/Reference model/plots/recdevs2_withbars.png>
 Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfis
 h OR WA assessment 2021/OR/write_up/models/Reference model/plots/recdevs2_withb
-ars.png  used on input line 1843.
+ars.png  used on input line 1859.
 (luatex.def)             Requested size: 398.34032pt x 245.13249pt.
 <C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/
-OR/write_up/models/Reference model/plots/recdevs3_varcheck.png, id=1147, 469.75
+OR/write_up/models/Reference model/plots/recdevs3_varcheck.png, id=1167, 469.75
 5pt x 289.08pt>
 File: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 
 2021/OR/write_up/models/Reference model/plots/recdevs3_varcheck.png Graphic fil
@@ -2797,10 +2801,10 @@ e (type png)
 021/OR/write_up/models/Reference model/plots/recdevs3_varcheck.png>
 Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfis
 h OR WA assessment 2021/OR/write_up/models/Reference model/plots/recdevs3_varch
-eck.png  used on input line 1853.
+eck.png  used on input line 1869.
 (luatex.def)             Requested size: 398.34032pt x 245.13249pt.
 <C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/
-OR/write_up/models/Reference model/plots/SR_curve.png, id=1149, 469.755pt x 469
+OR/write_up/models/Reference model/plots/SR_curve.png, id=1169, 469.755pt x 469
 .755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 
 2021/OR/write_up/models/Reference model/plots/SR_curve.png Graphic file (type p
@@ -2809,10 +2813,10 @@ ng)
 021/OR/write_up/models/Reference model/plots/SR_curve.png>
 Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfis
 h OR WA assessment 2021/OR/write_up/models/Reference model/plots/SR_curve.png  
-used on input line 1863.
+used on input line 1879.
 (luatex.def)             Requested size: 398.34032pt x 398.34032pt.
 <C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/
-OR/write_up/models/Reference model/plots/recruit_fit_bias_adjust.png, id=1151, 
+OR/write_up/models/Reference model/plots/recruit_fit_bias_adjust.png, id=1171, 
 469.755pt x 289.08pt>
 File: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 
 2021/OR/write_up/models/Reference model/plots/recruit_fit_bias_adjust.png Graph
@@ -2821,7 +2825,7 @@ ic file (type png)
 021/OR/write_up/models/Reference model/plots/recruit_fit_bias_adjust.png>
 Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfis
 h OR WA assessment 2021/OR/write_up/models/Reference model/plots/recruit_fit_bi
-as_adjust.png  used on input line 1873.
+as_adjust.png  used on input line 1889.
 (luatex.def)             Requested size: 398.34032pt x 245.13249pt.
 File: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 
 2021/OR/write_up/models/Reference model/plots/SR_curve.png Graphic file (type p
@@ -2830,10 +2834,10 @@ ng)
 021/OR/write_up/models/Reference model/plots/SR_curve.png>
 Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfis
 h OR WA assessment 2021/OR/write_up/models/Reference model/plots/SR_curve.png  
-used on input line 1883.
+used on input line 1899.
 (luatex.def)             Requested size: 398.34032pt x 398.34032pt.
 <C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/
-OR/write_up/models/Reference model/plots/SPR2_minusSPRseries.png, id=1154, 469.
+OR/write_up/models/Reference model/plots/SPR2_minusSPRseries.png, id=1174, 469.
 755pt x 289.08pt>
 File: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 
 2021/OR/write_up/models/Reference model/plots/SPR2_minusSPRseries.png Graphic f
@@ -2842,19 +2846,19 @@ ile (type png)
 021/OR/write_up/models/Reference model/plots/SPR2_minusSPRseries.png>
 Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfis
 h OR WA assessment 2021/OR/write_up/models/Reference model/plots/SPR2_minusSPRs
-eries.png  used on input line 1893.
+eries.png  used on input line 1909.
 (luatex.def)             Requested size: 398.34032pt x 245.13249pt.
-[39
+[40
 
 
 
-] [40<c:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2
-021/OR/write_up/figures/stock/Vermilion_Map.png>] [41<c:/Users/Jason.Cope/Docume
+] [41<c:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2
+021/OR/write_up/figures/stock/Vermilion_Map.png>] [42<c:/Users/Jason.Cope/Docume
 nts/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/figures/stock/TM
-_Vermilion_ORWA.png>] [42<c:/Users/Jason.Cope/Documents/Github/Vermilion rockfis
-h OR WA assessment 2021/OR/write_up/models/Reference Model/plots/data_plot.png>] [43<c:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/figures/biology_plots/AG_plot_lines_parameters.png><c:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference Model/plots/bio1_sizeatage.png>] [44<c:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/figures/biology_plots/Age_error_plot.png><c:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference Model/plots/bio6_maturity.png>] [45<c:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference Model/plots/bio9_fecundity_len.png>] [46<c:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/figures/biology_plots/Mdensityplots_OR_vermilion.png>] [47<c:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/figures/biology_plots/OR_Vermilion_Sexed Length vs Weight_withpower.png><c:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference Model/plots/sel01_multiple_fleets_length1.png>] [48<c:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference Model/Jitter Results/jitterplot_01.png>] [49<c:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference Model/plots/comp_lenfit__multi-fleet_comparison.png>] [50<c:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference Model/plots/comp_lenfit_data_weighting_TA1.8_Commercial_fit.png>] [51<c:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference Model/plots/comp_lenfit_data_weighting_TA1.8_Recreational_fit.png>] [52<c:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference Model/plots/comp_lenfit__aggregated_across_time.png>] [53<c:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference Model/plots/comp_condAALfit_data_weighting_TA1.8_condAgeCommercial_fit.png>] [54<c:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference Model/plots/comp_condAALfit_data_weighting_TA1.8_condAgeRecreational_fit.png>] [55<c:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference Model/plots/index2_cpuefit_Recreational.png>] [56<c:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference Model/plots/ts7_Spawning_output_with_95_asymptotic_intervals_intervals.png><c:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference Model/plots/ts1_Total_biomass_(mt).png>] [57<c:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference Model/plots/ts9_Relative_spawning_output_intervals.png><c:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference Model/plots/ts11_Age-0_recruits_(1000s)_with_95_asymptotic_intervals.png>] [58<c:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference Model/plots/recdevs2_withbars.png><c:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference Model/plots/recdevs3_varcheck.png>] [59<c:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference Model/plots/SR_curve.png>] [60<c:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference Model/plots/recruit_fit_bias_adjust.png>] [61] [62<c:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference Model/plots/SPR2_minusSPRseries.png>]
+_Vermilion_ORWA.png>] [43<c:/Users/Jason.Cope/Documents/Github/Vermilion rockfis
+h OR WA assessment 2021/OR/write_up/models/Reference Model/plots/data_plot.png>] [44<c:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/figures/biology_plots/AG_plot_lines_parameters.png><c:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference Model/plots/bio1_sizeatage.png>] [45<c:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/figures/biology_plots/Age_error_plot.png><c:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference Model/plots/bio6_maturity.png>] [46<c:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference Model/plots/bio9_fecundity_len.png>] [47<c:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/figures/biology_plots/Mdensityplots_OR_vermilion.png>] [48<c:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/figures/biology_plots/OR_Vermilion_Sexed Length vs Weight_withpower.png><c:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference Model/plots/sel01_multiple_fleets_length1.png>] [49<c:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference Model/Jitter Results/jitterplot_01.png>] [50<c:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference Model/plots/comp_lenfit__multi-fleet_comparison.png>] [51<c:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference Model/plots/comp_lenfit_data_weighting_TA1.8_Commercial_fit.png>] [52<c:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference Model/plots/comp_lenfit_data_weighting_TA1.8_Recreational_fit.png>] [53<c:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference Model/plots/comp_lenfit__aggregated_across_time.png>] [54<c:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference Model/plots/comp_condAALfit_data_weighting_TA1.8_condAgeCommercial_fit.png>] [55<c:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference Model/plots/comp_condAALfit_data_weighting_TA1.8_condAgeRecreational_fit.png>] [56<c:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference Model/plots/index2_cpuefit_Recreational.png>] [57<c:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference Model/plots/ts7_Spawning_output_with_95_asymptotic_intervals_intervals.png><c:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference Model/plots/ts1_Total_biomass_(mt).png>] [58<c:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference Model/plots/ts9_Relative_spawning_output_intervals.png><c:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference Model/plots/ts11_Age-0_recruits_(1000s)_with_95_asymptotic_intervals.png>] [59<c:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference Model/plots/recdevs2_withbars.png><c:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference Model/plots/recdevs3_varcheck.png>] [60<c:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference Model/plots/SR_curve.png>] [61<c:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference Model/plots/recruit_fit_bias_adjust.png>] [62] [63<c:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference Model/plots/SPR2_minusSPRseries.png>]
 <C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/
-OR/write_up/models/Reference model/plots/SPR4_phase.png, id=1285, 469.755pt x 2
+OR/write_up/models/Reference model/plots/SPR4_phase.png, id=1306, 469.755pt x 2
 89.08pt>
 File: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 
 2021/OR/write_up/models/Reference model/plots/SPR4_phase.png Graphic file (type
@@ -2863,11 +2867,11 @@ File: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment
 021/OR/write_up/models/Reference model/plots/SPR4_phase.png>
 Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfis
 h OR WA assessment 2021/OR/write_up/models/Reference model/plots/SPR4_phase.png
-  used on input line 1905.
+  used on input line 1921.
 (luatex.def)             Requested size: 398.34032pt x 245.13249pt.
 <C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/
 OR/write_up/models/Reference model/plots/yield2_yield_curve_with_refpoints.png,
- id=1287, 469.755pt x 289.08pt>
+ id=1308, 469.755pt x 289.08pt>
 File: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 
 2021/OR/write_up/models/Reference model/plots/yield2_yield_curve_with_refpoints
 .png Graphic file (type png)
@@ -2876,16 +2880,16 @@ File: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment
 png>
 Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfis
 h OR WA assessment 2021/OR/write_up/models/Reference model/plots/yield2_yield_c
-urve_with_refpoints.png  used on input line 1915.
+urve_with_refpoints.png  used on input line 1931.
 (luatex.def)             Requested size: 398.34032pt x 245.13249pt.
-[63
+[64
 
 <c:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/O
-R/write_up/models/Reference Model/plots/SPR4_phase.png>] [64<c:/Users/Jason.Cope
+R/write_up/models/Reference Model/plots/SPR4_phase.png>] [65<c:/Users/Jason.Cope
 /Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Re
 ference Model/plots/yield2_yield_curve_with_refpoints.png>]
 <C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/
-OR/write_up/models/Reference model/plots/comp_lenfit_flt1mkt0.png, id=1301, 469
+OR/write_up/models/Reference model/plots/comp_lenfit_flt1mkt0.png, id=1321, 469
 .755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 
 2021/OR/write_up/models/Reference model/plots/comp_lenfit_flt1mkt0.png Graphic 
@@ -2894,10 +2898,10 @@ file (type png)
 021/OR/write_up/models/Reference model/plots/comp_lenfit_flt1mkt0.png>
 Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfis
 h OR WA assessment 2021/OR/write_up/models/Reference model/plots/comp_lenfit_fl
-t1mkt0.png  used on input line 1934.
+t1mkt0.png  used on input line 1950.
 (luatex.def)             Requested size: 398.34032pt x 398.34032pt.
 <C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/
-OR/write_up/models/Reference model/plots/comp_lenfit_flt2mkt0_page1.png, id=130
+OR/write_up/models/Reference model/plots/comp_lenfit_flt2mkt0_page1.png, id=132
 3, 469.755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 
 2021/OR/write_up/models/Reference model/plots/comp_lenfit_flt2mkt0_page1.png Gr
@@ -2906,10 +2910,10 @@ aphic file (type png)
 021/OR/write_up/models/Reference model/plots/comp_lenfit_flt2mkt0_page1.png>
 Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfis
 h OR WA assessment 2021/OR/write_up/models/Reference model/plots/comp_lenfit_fl
-t2mkt0_page1.png  used on input line 1944.
+t2mkt0_page1.png  used on input line 1960.
 (luatex.def)             Requested size: 398.34032pt x 398.34032pt.
 <C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/
-OR/write_up/models/Reference model/plots/comp_lenfit_flt2mkt0_page2.png, id=130
+OR/write_up/models/Reference model/plots/comp_lenfit_flt2mkt0_page2.png, id=132
 5, 469.755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 
 2021/OR/write_up/models/Reference model/plots/comp_lenfit_flt2mkt0_page2.png Gr
@@ -2918,19 +2922,19 @@ aphic file (type png)
 021/OR/write_up/models/Reference model/plots/comp_lenfit_flt2mkt0_page2.png>
 Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfis
 h OR WA assessment 2021/OR/write_up/models/Reference model/plots/comp_lenfit_fl
-t2mkt0_page2.png  used on input line 1954.
+t2mkt0_page2.png  used on input line 1970.
 (luatex.def)             Requested size: 398.34032pt x 398.34032pt.
-[65
+[66
 
 <c:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/O
-R/write_up/models/Reference Model/plots/comp_lenfit_flt1mkt0.png>] [66<c:/Users/
+R/write_up/models/Reference Model/plots/comp_lenfit_flt1mkt0.png>] [67<c:/Users/
 Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up
-/models/Reference Model/plots/comp_lenfit_flt2mkt0_page1.png>] [67<c:/Users/Jaso
+/models/Reference Model/plots/comp_lenfit_flt2mkt0_page1.png>] [68<c:/Users/Jaso
 n.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/mod
 els/Reference Model/plots/comp_lenfit_flt2mkt0_page2.png>]
 <C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/
 OR/write_up/models/Reference model/plots/comp_condAALfit_residsflt1mkt0_page2.p
-ng, id=1327, 469.755pt x 469.755pt>
+ng, id=1347, 469.755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 
 2021/OR/write_up/models/Reference model/plots/comp_condAALfit_residsflt1mkt0_pa
 ge2.png Graphic file (type png)
@@ -2939,11 +2943,11 @@ ge2.png Graphic file (type png)
 e2.png>
 Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfis
 h OR WA assessment 2021/OR/write_up/models/Reference model/plots/comp_condAALfi
-t_residsflt1mkt0_page2.png  used on input line 1973.
+t_residsflt1mkt0_page2.png  used on input line 1989.
 (luatex.def)             Requested size: 398.34032pt x 398.34032pt.
 <C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/
 OR/write_up/models/Reference model/plots/comp_condAALfit_residsflt1mkt0_page3.p
-ng, id=1329, 469.755pt x 469.755pt>
+ng, id=1349, 469.755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 
 2021/OR/write_up/models/Reference model/plots/comp_condAALfit_residsflt1mkt0_pa
 ge3.png Graphic file (type png)
@@ -2952,11 +2956,11 @@ ge3.png Graphic file (type png)
 e3.png>
 Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfis
 h OR WA assessment 2021/OR/write_up/models/Reference model/plots/comp_condAALfi
-t_residsflt1mkt0_page3.png  used on input line 1983.
+t_residsflt1mkt0_page3.png  used on input line 1999.
 (luatex.def)             Requested size: 398.34032pt x 398.34032pt.
 <C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/
 OR/write_up/models/Reference model/plots/comp_condAALfit_residsflt1mkt0_page4.p
-ng, id=1331, 469.755pt x 469.755pt>
+ng, id=1351, 469.755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 
 2021/OR/write_up/models/Reference model/plots/comp_condAALfit_residsflt1mkt0_pa
 ge4.png Graphic file (type png)
@@ -2965,11 +2969,11 @@ ge4.png Graphic file (type png)
 e4.png>
 Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfis
 h OR WA assessment 2021/OR/write_up/models/Reference model/plots/comp_condAALfi
-t_residsflt1mkt0_page4.png  used on input line 1993.
+t_residsflt1mkt0_page4.png  used on input line 2009.
 (luatex.def)             Requested size: 398.34032pt x 398.34032pt.
 <C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/
 OR/write_up/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page1.p
-ng, id=1333, 469.755pt x 469.755pt>
+ng, id=1353, 469.755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 
 2021/OR/write_up/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_pa
 ge1.png Graphic file (type png)
@@ -2978,11 +2982,11 @@ ge1.png Graphic file (type png)
 e1.png>
 Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfis
 h OR WA assessment 2021/OR/write_up/models/Reference model/plots/comp_condAALfi
-t_residsflt2mkt0_page1.png  used on input line 2003.
+t_residsflt2mkt0_page1.png  used on input line 2019.
 (luatex.def)             Requested size: 398.34032pt x 398.34032pt.
 <C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/
 OR/write_up/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page2.p
-ng, id=1335, 469.755pt x 469.755pt>
+ng, id=1355, 469.755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 
 2021/OR/write_up/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_pa
 ge2.png Graphic file (type png)
@@ -2991,11 +2995,11 @@ ge2.png Graphic file (type png)
 e2.png>
 Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfis
 h OR WA assessment 2021/OR/write_up/models/Reference model/plots/comp_condAALfi
-t_residsflt2mkt0_page2.png  used on input line 2013.
+t_residsflt2mkt0_page2.png  used on input line 2029.
 (luatex.def)             Requested size: 398.34032pt x 398.34032pt.
 <C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/
 OR/write_up/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page3.p
-ng, id=1337, 469.755pt x 469.755pt>
+ng, id=1357, 469.755pt x 469.755pt>
 File: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 
 2021/OR/write_up/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_pa
 ge3.png Graphic file (type png)
@@ -3004,21 +3008,21 @@ ge3.png Graphic file (type png)
 e3.png>
 Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfis
 h OR WA assessment 2021/OR/write_up/models/Reference model/plots/comp_condAALfi
-t_residsflt2mkt0_page3.png  used on input line 2023.
+t_residsflt2mkt0_page3.png  used on input line 2039.
 (luatex.def)             Requested size: 398.34032pt x 398.34032pt.
-[68
+[69
 
 <c:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/O
 R/write_up/models/Reference Model/plots/comp_condAALfit_residsflt1mkt0_page2.png
->] [69<c:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 
+>] [70<c:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 
 2021/OR/write_up/models/Reference Model/plots/comp_condAALfit_residsflt1mkt0_pag
-e3.png>] [70<c:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA asses
+e3.png>] [71<c:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA asses
 sment 2021/OR/write_up/models/Reference Model/plots/comp_condAALfit_residsflt1mk
-t0_page4.png>] [71<c:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA
+t0_page4.png>] [72<c:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA
  assessment 2021/OR/write_up/models/Reference Model/plots/comp_condAALfit_resids
-flt2mkt0_page1.png>] [72<c:/Users/Jason.Cope/Documents/Github/Vermilion rockfish
+flt2mkt0_page1.png>] [73<c:/Users/Jason.Cope/Documents/Github/Vermilion rockfish
  OR WA assessment 2021/OR/write_up/models/Reference Model/plots/comp_condAALfit_
-residsflt2mkt0_page2.png>] [73<c:/Users/Jason.Cope/Documents/Github/Vermilion ro
+residsflt2mkt0_page2.png>] [74<c:/Users/Jason.Cope/Documents/Github/Vermilion ro
 ckfish OR WA assessment 2021/OR/write_up/models/Reference Model/plots/comp_condA
 ALfit_residsflt2mkt0_page3.png>]
 warning  (pdf backend): ignoring duplicate destination with the name 'detailed-c
@@ -3031,7 +3035,7 @@ ge2.png Graphic file (type png)
 e2.png>
 Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfis
 h OR WA assessment 2021/OR/write_up/models/Reference model/plots/comp_condAALfi
-t_residsflt1mkt0_page2.png  used on input line 2042.
+t_residsflt1mkt0_page2.png  used on input line 2058.
 (luatex.def)             Requested size: 398.34032pt x 398.34032pt.
 File: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 
 2021/OR/write_up/models/Reference model/plots/comp_condAALfit_residsflt1mkt0_pa
@@ -3041,7 +3045,7 @@ ge3.png Graphic file (type png)
 e3.png>
 Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfis
 h OR WA assessment 2021/OR/write_up/models/Reference model/plots/comp_condAALfi
-t_residsflt1mkt0_page3.png  used on input line 2052.
+t_residsflt1mkt0_page3.png  used on input line 2068.
 (luatex.def)             Requested size: 398.34032pt x 398.34032pt.
 File: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 
 2021/OR/write_up/models/Reference model/plots/comp_condAALfit_residsflt1mkt0_pa
@@ -3051,7 +3055,7 @@ ge4.png Graphic file (type png)
 e4.png>
 Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfis
 h OR WA assessment 2021/OR/write_up/models/Reference model/plots/comp_condAALfi
-t_residsflt1mkt0_page4.png  used on input line 2062.
+t_residsflt1mkt0_page4.png  used on input line 2078.
 (luatex.def)             Requested size: 398.34032pt x 398.34032pt.
 File: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 
 2021/OR/write_up/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_pa
@@ -3061,7 +3065,7 @@ ge1.png Graphic file (type png)
 e1.png>
 Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfis
 h OR WA assessment 2021/OR/write_up/models/Reference model/plots/comp_condAALfi
-t_residsflt2mkt0_page1.png  used on input line 2072.
+t_residsflt2mkt0_page1.png  used on input line 2088.
 (luatex.def)             Requested size: 398.34032pt x 398.34032pt.
 File: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 
 2021/OR/write_up/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_pa
@@ -3071,7 +3075,7 @@ ge2.png Graphic file (type png)
 e2.png>
 Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfis
 h OR WA assessment 2021/OR/write_up/models/Reference model/plots/comp_condAALfi
-t_residsflt2mkt0_page2.png  used on input line 2082.
+t_residsflt2mkt0_page2.png  used on input line 2098.
 (luatex.def)             Requested size: 398.34032pt x 398.34032pt.
 File: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 
 2021/OR/write_up/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_pa
@@ -3081,15 +3085,16 @@ ge3.png Graphic file (type png)
 e3.png>
 Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Vermilion rockfis
 h OR WA assessment 2021/OR/write_up/models/Reference model/plots/comp_condAALfi
-t_residsflt2mkt0_page3.png  used on input line 2092.
+t_residsflt2mkt0_page3.png  used on input line 2108.
 (luatex.def)             Requested size: 398.34032pt x 398.34032pt.
 
 AED: lastpage setting LastPage
-[74
+[75
 
-] [75] [76] [77] [78] [79] (./_main.aux (./tex_tables/Catches_All_Years.aux) (.
-/tex_tables/age-error-models.aux) (./tex_tables/likelihoods.aux) (./tex_tables/
-e_ReferencePoints_ES.aux) (./tex_tables/TimeSeries.aux))
+] [76] [77] [78] [79] [80] (./_main.aux (./tex_tables/Catches_All_Years.aux) (.
+/tex_tables/OR_vermilion_mgmt.aux) (./tex_tables/age-error-models.aux) (./tex_t
+ables/likelihoods.aux) (./tex_tables/e_ReferencePoints_ES.aux) (./tex_tables/Ti
+meSeries.aux))
 
 LaTeX Warning: There were undefined references.
 
@@ -3100,115 +3105,119 @@ tagpdf: WARN! MC112 has no kids
 tagpdf: WARN! MC114 has no kids
 tagpdf: WARN! MC112 has no kids
 tagpdf: WARN! MC114 has no kids
-tagpdf: WARN! MC140 has no kids
-tagpdf: WARN! MC140 has no kids
-tagpdf: WARN! MC190 has no kids
-tagpdf: WARN! MC190 has no kids
-tagpdf: WARN! MC193 has no kids
-tagpdf: WARN! MC193 has no kids
-tagpdf: WARN! MC199 has no kids
-tagpdf: WARN! MC199 has no kids
-tagpdf: WARN! MC202 has no kids
-tagpdf: WARN! MC202 has no kids
-tagpdf: WARN! MC205 has no kids
-tagpdf: WARN! MC207 has no kids
-tagpdf: WARN! MC205 has no kids
-tagpdf: WARN! MC207 has no kids
-tagpdf: WARN! MC217 has no kids
-tagpdf: WARN! MC217 has no kids
-tagpdf: WARN! MC225 has no kids
-tagpdf: WARN! MC225 has no kids
-tagpdf: WARN! MC233 has no kids
-tagpdf: WARN! MC233 has no kids
-tagpdf: WARN! MC237 has no kids
-tagpdf: WARN! MC237 has no kids
-tagpdf: WARN! MC255 has no kids
-tagpdf: WARN! MC257 has no kids
-tagpdf: WARN! MC255 has no kids
-tagpdf: WARN! MC257 has no kids
-tagpdf: WARN! MC290 has no kids
-tagpdf: WARN! MC290 has no kids
-tagpdf: WARN! MC294 has no kids
-tagpdf: WARN! MC296 has no kids
-tagpdf: WARN! MC294 has no kids
-tagpdf: WARN! MC296 has no kids
-tagpdf: WARN! MC299 has no kids
-tagpdf: WARN! MC301 has no kids
-tagpdf: WARN! MC299 has no kids
-tagpdf: WARN! MC301 has no kids
-tagpdf: WARN! MC304 has no kids
-tagpdf: WARN! MC306 has no kids
-tagpdf: WARN! MC304 has no kids
-tagpdf: WARN! MC306 has no kids
+tagpdf: WARN! MC145 has no kids
+tagpdf: WARN! MC145 has no kids
+tagpdf: WARN! MC149 has no kids
+tagpdf: WARN! MC149 has no kids
+tagpdf: WARN! MC153 has no kids
+tagpdf: WARN! MC153 has no kids
+tagpdf: WARN! MC203 has no kids
+tagpdf: WARN! MC203 has no kids
+tagpdf: WARN! MC206 has no kids
+tagpdf: WARN! MC206 has no kids
+tagpdf: WARN! MC212 has no kids
+tagpdf: WARN! MC212 has no kids
+tagpdf: WARN! MC215 has no kids
+tagpdf: WARN! MC215 has no kids
+tagpdf: WARN! MC218 has no kids
+tagpdf: WARN! MC220 has no kids
+tagpdf: WARN! MC218 has no kids
+tagpdf: WARN! MC220 has no kids
+tagpdf: WARN! MC230 has no kids
+tagpdf: WARN! MC230 has no kids
+tagpdf: WARN! MC238 has no kids
+tagpdf: WARN! MC238 has no kids
+tagpdf: WARN! MC246 has no kids
+tagpdf: WARN! MC246 has no kids
+tagpdf: WARN! MC250 has no kids
+tagpdf: WARN! MC250 has no kids
+tagpdf: WARN! MC268 has no kids
+tagpdf: WARN! MC270 has no kids
+tagpdf: WARN! MC268 has no kids
+tagpdf: WARN! MC270 has no kids
+tagpdf: WARN! MC303 has no kids
+tagpdf: WARN! MC303 has no kids
+tagpdf: WARN! MC307 has no kids
 tagpdf: WARN! MC309 has no kids
+tagpdf: WARN! MC307 has no kids
 tagpdf: WARN! MC309 has no kids
-tagpdf: WARN! MC316 has no kids
-tagpdf: WARN! MC318 has no kids
-tagpdf: WARN! MC316 has no kids
-tagpdf: WARN! MC318 has no kids
 tagpdf: WARN! MC312 has no kids
 tagpdf: WARN! MC314 has no kids
 tagpdf: WARN! MC312 has no kids
 tagpdf: WARN! MC314 has no kids
+tagpdf: WARN! MC317 has no kids
 tagpdf: WARN! MC319 has no kids
-tagpdf: WARN! MC321 has no kids
+tagpdf: WARN! MC317 has no kids
 tagpdf: WARN! MC319 has no kids
-tagpdf: WARN! MC321 has no kids
-tagpdf: WARN! MC325 has no kids
-tagpdf: WARN! MC325 has no kids
+tagpdf: WARN! MC322 has no kids
+tagpdf: WARN! MC322 has no kids
+tagpdf: WARN! MC329 has no kids
 tagpdf: WARN! MC331 has no kids
-tagpdf: WARN! MC333 has no kids
-tagpdf: WARN! MC335 has no kids
+tagpdf: WARN! MC329 has no kids
 tagpdf: WARN! MC331 has no kids
-tagpdf: WARN! MC333 has no kids
-tagpdf: WARN! MC335 has no kids
-tagpdf: WARN! MC341 has no kids
-tagpdf: WARN! MC341 has no kids
+tagpdf: WARN! MC325 has no kids
+tagpdf: WARN! MC327 has no kids
+tagpdf: WARN! MC325 has no kids
+tagpdf: WARN! MC327 has no kids
+tagpdf: WARN! MC332 has no kids
+tagpdf: WARN! MC334 has no kids
+tagpdf: WARN! MC332 has no kids
+tagpdf: WARN! MC334 has no kids
+tagpdf: WARN! MC338 has no kids
+tagpdf: WARN! MC338 has no kids
 tagpdf: WARN! MC344 has no kids
 tagpdf: WARN! MC346 has no kids
 tagpdf: WARN! MC348 has no kids
-tagpdf: WARN! MC350 has no kids
 tagpdf: WARN! MC344 has no kids
 tagpdf: WARN! MC346 has no kids
 tagpdf: WARN! MC348 has no kids
-tagpdf: WARN! MC350 has no kids
 tagpdf: WARN! MC354 has no kids
-tagpdf: WARN! MC356 has no kids
-tagpdf: WARN! MC358 has no kids
 tagpdf: WARN! MC354 has no kids
-tagpdf: WARN! MC356 has no kids
-tagpdf: WARN! MC358 has no kids
-tagpdf: WARN! MC362 has no kids
-tagpdf: WARN! MC362 has no kids
-tagpdf: WARN! MC366 has no kids
-tagpdf: WARN! MC368 has no kids
-tagpdf: WARN! MC366 has no kids
-tagpdf: WARN! MC368 has no kids
-tagpdf: WARN! MC372 has no kids
-tagpdf: WARN! MC372 has no kids
-tagpdf: WARN! MC377 has no kids
+tagpdf: WARN! MC357 has no kids
+tagpdf: WARN! MC359 has no kids
+tagpdf: WARN! MC361 has no kids
+tagpdf: WARN! MC363 has no kids
+tagpdf: WARN! MC357 has no kids
+tagpdf: WARN! MC359 has no kids
+tagpdf: WARN! MC361 has no kids
+tagpdf: WARN! MC363 has no kids
+tagpdf: WARN! MC367 has no kids
+tagpdf: WARN! MC369 has no kids
+tagpdf: WARN! MC371 has no kids
+tagpdf: WARN! MC367 has no kids
+tagpdf: WARN! MC369 has no kids
+tagpdf: WARN! MC371 has no kids
+tagpdf: WARN! MC375 has no kids
+tagpdf: WARN! MC375 has no kids
+tagpdf: WARN! MC379 has no kids
 tagpdf: WARN! MC381 has no kids
-tagpdf: WARN! MC383 has no kids
-tagpdf: WARN! MC385 has no kids
-tagpdf: WARN! MC387 has no kids
-tagpdf: WARN! MC377 has no kids
+tagpdf: WARN! MC379 has no kids
 tagpdf: WARN! MC381 has no kids
-tagpdf: WARN! MC383 has no kids
 tagpdf: WARN! MC385 has no kids
-tagpdf: WARN! MC387 has no kids
-tagpdf: WARN! MC441 has no kids
-tagpdf: WARN! MC441 has no kids)
+tagpdf: WARN! MC385 has no kids
+tagpdf: WARN! MC390 has no kids
+tagpdf: WARN! MC394 has no kids
+tagpdf: WARN! MC396 has no kids
+tagpdf: WARN! MC398 has no kids
+tagpdf: WARN! MC400 has no kids
+tagpdf: WARN! MC390 has no kids
+tagpdf: WARN! MC394 has no kids
+tagpdf: WARN! MC396 has no kids
+tagpdf: WARN! MC398 has no kids
+tagpdf: WARN! MC400 has no kids
+tagpdf: WARN! MC454 has no kids
+tagpdf: WARN! MC454 has no kids)
 
 Here is how much of LuaTeX's memory you used:
- 51140 strings out of 478378
- 244182,2373549 words of node,token memory allocated
+ 51223 strings out of 478378
+ 244177,2373549 words of node,token memory allocated
  806 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 1 dir, 2 glue, 4 kern, 3 glyph, 48 attribute, 79 gl
 ue_spec, 18 attribute_list, 5 write, 1 close, 6 pdf_action nodes
-   avail lists: 1:69,2:8614,3:2079,4:169,5:524,6:1006,7:14259,8:106,9:6619,10:19
-,11:713,12:1
- 68579 multiletter control sequences out of 65536+600000
- 89 fonts using 19278791 bytes
+   avail lists: 1:70,2:8614,3:2079,4:167,5:532,6:1006,7:14259,8:105,9:6619,10:19
+,11:737,12:1
+ 68630 multiletter control sequences out of 65536+600000
+ 89 fonts using 19279091 bytes
  115i,12n,146p,2793b,648s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 warning  (pdf backend): unreferenced destination with name 'app_c'
@@ -3232,9 +3241,9 @@ g/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/Users/Ja
 son.Cope/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman12-i
 talic.otf><c:/Users/Jason.Cope/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype
 /public/lm/lmroman12-regular.otf>
-Output written on _main.pdf (87 pages, 101726077 bytes).
+Output written on _main.pdf (88 pages, 101787389 bytes).
 
-PDF statistics: 1712 PDF objects out of 1728 (max. 8388607)
- 340 named destinations out of 1000 (max. 131072)
- 3379 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 1732 PDF objects out of 2073 (max. 8388607)
+ 342 named destinations out of 1000 (max. 131072)
+ 3444 words of extra memory for PDF output out of 10000 (max. 100000000)
 
