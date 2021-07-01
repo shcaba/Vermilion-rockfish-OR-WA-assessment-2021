@@ -138,9 +138,9 @@ Adult vermilion rockfish predominantly eat smaller fish, though sometimes they p
 Replace text.
 
 ## Historical and Current Fishery Information
-Off the coast of Oregon, vermilion rockfish is caught in both commercial and recreational fisheries. The landings from the commercial fishery were minimal until the mid-1960s. Following the development of the nearshore commercial fishery in the late 1990s, Oregon Department of Fish and Wildlife (ODFW) implemented a state-permitted limited access fishery that regulated fleet size, period landing limits and established harvest guidelines (Rodomsky, Calavan, and Lomeli 2020). Vermilion rockfish is one of multiple rockfish species that are commonly landed as a part of the nearshore commercial groundfish fishery. Currently, this commercial fishery is centered on the southern Oregon coast, where most of the vermilion rockfish commercial landings occur.  Two types of state limited entry permits are issued for this fishery, with and without a nearshore endorsement. Limited entry permit holders without a nearshore endorsement may land commercial quantities of black and blue rockfish under state trip limits, with an additional total of 15 lbs per day of any combination of other nearshore groundfish species and two rockfish species with Federal designation as shelf rockfish. These include tiger and vermilion rockfish. Vessels that have a nearshore endorsement permit may land commercial quantities of other nearshore groundfish species up to the state’s cumulative trip limits and the Federal limits for tiger and vermilion rockfish. There are no state trip limits set for vermilion rockfish. 
+Off the coast of Oregon, vermilion rockfish is caught in both commercial and recreational fisheries. The landings from the commercial fishery were minimal until the mid-1960s. Following the development of the nearshore commercial fishery in the late 1990s, Oregon Department of Fish and Wildlife (ODFW) implemented a state-permitted limited access fishery that regulated fleet size, period landing limits and established harvest guidelines [@rodomsky_2019_2020]. Vermilion rockfish is one of multiple rockfish species that are commonly landed as a part of the nearshore commercial groundfish fishery. Currently, this commercial fishery is centered on the southern Oregon coast, where most of the vermilion rockfish commercial landings occur.  Two types of state limited entry permits are issued for this fishery, with and without a nearshore endorsement. Limited entry permit holders without a nearshore endorsement may land commercial quantities of black and blue rockfish under state trip limits, with an additional total of 15 lbs per day of any combination of other nearshore groundfish species and two rockfish species with Federal designation as shelf rockfish. These include tiger and vermilion rockfish. Vessels that have a nearshore endorsement permit may land commercial quantities of other nearshore groundfish species up to the state’s cumulative trip limits and the Federal limits for tiger and vermilion rockfish. There are no state trip limits set for vermilion rockfish. 
 
-This analysis assesses the stock off the Oregon coast as a separate stock from other populations off the West Coast based on the sedentary nature of vermillion rockfish, which likely limits flow of fish between California and Washington. The substrate of the northern Oregon and southern Washington coast is primarily sandy bottom and combined with the Columbia River plume between Oregon and Washington these factors create a natural separation between the Oregon and Washington populations. Additionally, the exploitation history and magnitude of removals off the Oregon coast has been dramatically lower than removals off the California coast. The recreational fishery off the coast of Oregon developed during the 1970s, with the first recorded landings of vermillion rockfish in 1979. Vermilion rockfish is not commonly encountered in the recreational fishery, but recreational removals have generally increased across time as this fishery has developed (TABLE X).
+This analysis assesses the stock off the Oregon coast as a separate stock from other populations off the West Coast based on the sedentary nature of vermillion rockfish, which likely limits flow of fish between California and Washington. The substrate of the northern Oregon and southern Washington coast is primarily sandy bottom and combined with the Columbia River plume between Oregon and Washington these factors create a natural separation between the Oregon and Washington populations. Additionally, the exploitation history and magnitude of removals off the Oregon coast has been dramatically lower than removals off the California coast. The recreational fishery off the coast of Oregon developed during the 1970s, with the first recorded landings of vermillion rockfish in 1979. Vermilion rockfish is not commonly encountered in the recreational fishery, but recreational removals have generally increased across time as this fishery has developed (Table \ref{tab:Catches_All_Years}).
 
 ## Summary of Management History and Performance
 Vermilion rockfish is managed by the Pacific Fishery Management Council (PFMC) as a part of the Shelf Rockfish North and Shelf Rockfish South complexes. The North and South areas are split at N. 40°10’ Lat. N. off the West Coast. The complex is managed based on a complex level overfishing limit (OFL) and annual catch limit (ACL). The OFL and ACL values for the complex are determined by summing the species specific OFLs and ACLs managed within the complex. Removals for species within the Rockfish complex are managed and tracked against the complex total OFL and ACL, rather than on a species by species basis. The OFL and ACLs for vermilion rockfish North of 40°10’ Lat. N. management area, the state/specific ACL allocation (49 percent for Oregon, Groundfish Management Team, personal communication), and the total removals are shown in Table XX.
@@ -148,7 +148,7 @@ Vermilion rockfish is managed by the Pacific Fishery Management Council (PFMC) a
 
 <!--chapter:end:11introduction.Rmd-->
 
-# Data
+# Data and Model Inputs
 A description of each data source is provided below (Figure \ref{fig:data-plot}).
 
 <!--chapter:end:20data.Rmd-->
@@ -284,9 +284,9 @@ Counting ages from ageing structures in long-lived temparate fishes is challengi
 
 Ageing error matrices for commerical and recreational fisheries respectively were calculated using multiple reads within each reader (n = 181 for commercial; n = 237  for recreational). An additional ageing error matrix was constructed from the Committee of Age Reading Experts (CARE) otolith exchange, where an exchange of 43 individuals was done amonth ODFW, WDFW, SWFSC, and NWFSC. The ODFW internal reads were used in the reference model, with the CARE comparison explored in a sensitivity model run.
 
-Estimation of ageing error matrices for each lab used the approach of Punt et al. (2008). The ageing error matrix offers a way to calculate both bias and imprecision in age reads. Reader 1, the primary reader of the ages used in the stock assessment, is always considered unbiased, but may be imprecise. Several model configurations are available for exploration based on either the functional form (e.g., constant CV, curvilinear standard deviation, or curvilinear CV) of the bias in reader 2 or in the precision of the readers. Model selection uses AIC corrected for small sample size (AICc), which converges to AIC when sample sizes are large. Bayesian Information Criterion (BIC) was also considered when selecting a final model.
+Estimation of ageing error matrices for each lab used the approach of Punt et al. (2008). The ageing error matrix offers a way to calculate both bias and imprecision in age reads. Reader 1, the primary reader of the ages used in the stock assessment, is always considered unbiased, but may be imprecise. Several model configurations are available for exploration based on either the functional form (e.g., constant CV, curvilinear standard deviation, or curvilinear CV) of the bias in reader 2 or in the precision of the readers. Model selection uses AIC corrected for small sample size (AICc), which converges to AIC when sample sizes are large. Bayesian Information Criterion (BIC) was also considered when selecting a final model. Table \ref{tab:ageing_error_mods} provides model selection results.
 
-The ODFW interlab comparison supported imprecision with a curvilinear standard deviation for the recretaional fishery, and a linear one for commercial. The CARE comparison was also linear, with a bit higher standard deviation (Table \ref{tab:age-error-models). The functional forms for each matrix are given in Figure \ref{fig:age-error}.
+The ODFW interlab comparison supported imprecision with a curvilinear standard deviation for the recretaional fishery, and a linear one for commercial. The CARE comparison was also linear, with a bit higher standard deviation. The functional forms for each matrix are given in Figure \ref{fig:age-error}.
 
 
 ### Natural Mortality
@@ -383,7 +383,7 @@ An extra effort was given to ensure the model did not rest on a local likelihood
 
 #### Fits to the Data
 ##### Lengths
-Fits to the length data are examined based on the Pearson residuals-at-length, the annual mean lengths, and aggregated length composition data for the commercial and recreational fleets. Annual length composition fits are shown in [Appendix B](#append_a). Lengths are generally sampled better in the recreational fishery and after year 2000.
+Fits to the length data are examined based on the Pearson residuals-at-length, the annual mean lengths, and aggregated length composition data for the commercial and recreational fleets. Annual length composition fits are shown in [Appendix A](#app_a). Lengths are generally sampled better in the recreational fishery and after year 2000.
 
 Pearson residuals of fits to the commerical fishery length data are generally low with no distinct pattern of misfitting despite lower sample sizes (Figure \ref{fig:com-rec-pearson}). Fits to the commercial fishery mean lengths, assuming Francis data-weighting, show increasing female and males lengths until after 2009, after which mean lengths are relatively stable, with a small drop in size in the most recent year (Figure \ref{fig:com-mean-len-fit}).  
 
@@ -393,28 +393,32 @@ Aggregate fits by fleet are shown in Figure \ref{fig:agg-len-fit}.  The model fi
 
 
 ##### Conditional Age at Length
-Fits to the conditioanl age at length data are examined based on the Pearson residuals-at-length, the annual mean ages, and age composition data for the commercial and recreational fleets. Annual length composition fits are shown in [Appendix C](#append_c). Lengths are generally sampled better in the recreational fishery and after year 2000.
-
-The maximum size of the Pearson residuals for both fleets was large (maximum = 30.56 and 30.63 for commercial and recretaional samples, respectively; Appendix C), but due to the inclusion of very small and older fish. Most of the residuals were small and unnoteworthy and demonstrate a distinctive growth curve. As with the lengths, the mean age by year increased then leveled off, though the recreational mean ages continue to increase in the most recent years (Figures \ref{fig:com-mean-caal} and \ref{fig:rec-mean-caal}). The mean age for commercial stocks were generally around 15 years old, whereas the recretional ages are around 18 years old. Fits to the mean ages by length bins showd acceptable fits consistent with model expectations [Appendix C].
+Fits to the conditioanl age at length data are examined based on the age-at-length Pearson residuals, the annual mean ages, and mean age at length by year for the commercial and recreational fleet samples. The maximum size of the Pearson residuals for both fleets was large (maximum = 30.56 and 30.63 for commercial and recretaional samples, respectively; [Appendix B](#app_b)), due to the inclusion of very small but aged as older fish. Most of the residuals were small and unnoteworthy and demonstrate the expected shape of the growth curve. As with the lengths, the mean age by year increased then leveled off, though the recreational mean ages continue to increase in the most recent years (Figures \ref{fig:com-mean-caal} and \ref{fig:rec-mean-caal}). The mean age for commercial stocks were generally around 15 years old, whereas the recretional ages are around 18 years old. Fits to the mean ages by length bins show acceptable fits consistent with model expectations [Appendix C](#app_c).
  
 
 ##### ORBS Survey Index of Abundance
-The fit to the ORBS recreational survey index are generally good and consistent with other model sources as the trend shows a population increasing in the early 2000s then leveling off and dropping over recent years (Figure \ref{fig:orbs-index-fit}). The decreasing trend is more consistent over the last decade than indicated in the lengths or ages. Inital variance for the survey is extremely small, though it only took a small about of added variance to fit the index (0.08).
+The fit to the ORBS recreational survey index are generally good and consistent with other model sources as the trend shows a population increasing in the early 2000s then leveling off and dropping over recent years (Figure \ref{fig:orbs-index-fit}). The decreasing trend is more consistent over the last decade than indicated in the lengths or ages. Inital variance for the survey is extremely small, though it only took a small about of added variance to fit the index (0.08). The catchability coefficient (q) 0.003 was analytically solved for and very small relative to the total an absoute measure (q=1), a typical result of a fishery-based abundance index.
 
 
 ### Selectivity
-The logistic selectivity curves fit to the commericial and recreational fishery look well within reason (a model convergence check for realism in the selectivity application) and are very similar (Figure \ref{fig:fleet_selectivity}). Future assessments could opt for parsimony and combine these two fisheries into one combined selectivity, though the model had no issue adding two more parameters given the available length data.
-
 
 
 ### Reference Model Outputs 
 #### Parameter Estimates
-A total of sixteen primary parameters were estimated, along with sixty recruitment deviations. The reference model parameter estimates along with asymptotic standard errors are shown in Table \ref{tab:model-param} and the likelihood components are shown in Table \ref{tab:likes}. Estimates of derived reference points and approximate 95 percent asymptotic confidence intervals are shown in Table \ref{tab:referenceES}. Estimates of stock size and status over time are shown in Table \ref{tab:timeseries}. 
+A total of sixteen primary parameters were estimated, along with sixty recruitment deviations. The reference model parameter estimates along with asymptotic standard errors are shown in Table \ref{tab:model-param} and the likelihood components are shown in Table \ref{tab:likes}. Estimates of derived reference points and approximate 95 percent asymptotic confidence intervals are provided in Table \ref{tab:referenceES}. 
+
+The natural mortality for females and males was estimated at 0 and 0.073 yr^-1^, respectively. These values are below the mean prior value, but not unrreasonable given the corresponding longevities would be between 67 and 75 year old and the sampled max ages of 68 come from a fished population.
+
+The estimates of sex-specific growth parameters were different from the externally estimated starting values (Table \ref{tab:params} and Figure \ref{fig:mod-est-len-age}). The estimated $k$ for female and male fish were greater than the values estimated externally using only available survey data (0.146  for females and 0.175 yr^-1^ for males).  The majority of female and male vermilion rockfish growth occurs at younger ages, reaching near maximum length by age 20-25, depending upon sex, with female vermilion rockfish reaching  larger maximum lengths (Figure \ref{fig:mod-est-len-age}). 
+
+The estimated logistic selectivity curves for the commericial and recreational fishery look plausible (i.e., as a model convergence check for realism, the selectivity curves are not overtly outrageous) for each fishery and are very similar to each other (Figure \ref{fig:fleet_selectivity}). Selectivity at 50% maturity (commercial = 43.67cm; recreational = 44.443cm) was between the length at 50% (39.4cm) and 95% maturity (48cm). Future assessments could opt for parsimony and combine these two fisheries into one combined selectivity, though the model had no issue adding two more parameters given the available length data.
+
+The time series of estimated recruitments and annual recruitment deviations are shown in Figures \ref{fig:recruits} and \ref{fig:rec-devs}. Years with the highest recruitment deviations were estimated to have occurred in 1993-1994, 1998, 2005, and 2015. The variance check on the recruitment deviations indicates well informed recruitments from 1980 to 2015, providing justifation for the estimation of recruitment. Recruitment deviations after 2015 are relatively uninformed with estimated deviations near zero where recruitment is estimated primarily based on the spawner-recruit curve (Figure \ref{fig:bh-curve}). The recruitment bias adjustment applied within the model across years is shown in Figure \ref{fig:bias-adj}.
 
 
 #### Population Trajectory
 
-The predicted spawning output (in millions of eggs) is given in Table \ref{tab:timeseries} and plotted in Figure \ref{fig:ssb}. Estimated spawning output shows a large decline starting in the 1970s, with a continued decline into the 1980s. This tracks the large removals during this time period. A large decline in removals starting in the mid-1980s and into the 1990s is reflected in a population that begins a steady increase into the early 2010s. Recent high removals (the largest in the recorded removal history) have again caused a stark population decline. The estimate of total biomass over time, which tracks that of spawning output, is shown in Figure \ref{fig:tot-bio}.
+The predicted spawning output (in millions of eggs) is provided in Table \ref{tab:timeseries} and plotted in Figure \ref{fig:ssb}. Estimated spawning output shows a large decline starting in the 1970s, with a continued decline into the late 1990s. This tracks the time period of major removals, though removals have stayed somewhat elevated since. Strong recruitments in the 1990s  The estimate of total biomass over time, which tracks that of spawning output, is shown in Figure \ref{fig:tot-bio}.
 
 Relative spawning output declined below the management target ($SB_{40\%}$) in the early 1980s and again fell below the target starting in 2019 (Figure \ref{fig:depl}). The relative stock status at the start of 2021 is estimated to be below the rockfish relative biomass target of 40 percent (0.73) but above the management threshold of 25 percent. Uncertainty intervals indicate the population never goes below the management limit ($SB_{25\%}$) and is near the target after a very low catch in 2020 (likely attributable to the COVID-19 pandemic). The very low catches in 2020 allowed the population to rebound under the assumption of determnistic recruitment.   
 
@@ -496,6 +500,157 @@ Here are all the mad props!
 
 \newpage
 
+<!-- ======================================================= -->
+<!-- ***********   Model Parameters     ******************** --> 
+<!-- ======================================================= -->
+
+\begingroup\fontsize{9}{11}\selectfont
+
+\begin{landscape}\begingroup\fontsize{9}{11}\selectfont
+
+\begin{longtable}[t]{>{\raggedright\arraybackslash}p{6cm}lllll>{\raggedright\arraybackslash}p{4cm}}
+\caption{(\#tab:model-param)List of parameters used in the base model, including estimated values and standard deviations (SD), bounds (minimum and maximum), estimation phase (negative values not estimated), status (indicates if parameters are near bounds), and prior type information (mean and SD).}\\
+\toprule
+Parameter & Value & Phase & Bounds & Status & Prior (Exp.Val, SD)\\
+\midrule
+\endfirsthead
+\caption[]{(\#tab:model-param)List of parameters used in the base model, including estimated values and standard deviations (SD), bounds (minimum and maximum), estimation phase (negative values not estimated), status (indicates if parameters are near bounds), and prior type information (mean and SD). \textit{(continued)}}\\
+\toprule
+Parameter & Value & Phase & Bounds & Status & Prior (Exp.Val, SD)\\
+\midrule
+\endhead
+
+\endfoot
+\bottomrule
+\endlastfoot
+NatM p 1 Fem GP 1 & 0.080 & 3 & OK & 0.00812246 & Log Norm (-2.30259, 0.438)\\
+L at Amin Fem GP 1 & -17.078 & 3 & OK & 3.33389 & None\\
+L at Amax Fem GP 1 & 57.184 & 3 & OK & 0.341133 & None\\
+VonBert K Fem GP 1 & 0.146 & 3 & OK & 0.00585385 & None\\
+CV young Fem GP 1 & 0.100 & -4 & - & - & None\\
+CV old Fem GP 1 & 0.054 & 4 & OK & 0.00178057 & None\\
+Wtlen 1 Fem GP 1 & 0.000 & -99 & - & - & None\\
+Wtlen 2 Fem GP 1 & 2.930 & -99 & - & - & None\\
+Mat50\% Fem GP 1 & 39.400 & -99 & - & - & None\\
+Mat slope Fem GP 1 & -0.342 & -99 & - & - & None\\
+Eggs scalar Fem GP 1 & 0.000 & -3 & - & - & None\\
+Eggs exp len Fem GP 1 & 3.548 & -3 & - & - & None\\
+NatM p 1 Mal GP 1 & 0.073 & 3 & OK & 0.00789027 & Log Norm (-2.30259, 0.438)\\
+L at Amin Mal GP 1 & -29.898 & 3 & OK & 5.2875 & None\\
+L at Amax Mal GP 1 & 54.193 & 3 & OK & 0.245592 & None\\
+VonBert K Mal GP 1 & 0.180 & 3 & OK & 0.00749103 & None\\
+CV young Mal GP 1 & 0.100 & -4 & - & - & None\\
+CV old Mal GP 1 & 0.045 & 4 & LO & 0.00166169 & None\\
+Wtlen 1 Mal GP 1 & 0.000 & -99 & - & - & None\\
+Wtlen 2 Mal GP 1 & 2.830 & -99 & - & - & None\\
+CohortGrowDev & 1.000 & -1 & - & - & None\\
+FracFemale GP 1 & 0.500 & -99 & - & - & None\\
+SR LN(R0) & 2.793 & 1 & OK & 0.243905 & None\\
+SR BH steep & 0.720 & -1 & - & - & None\\
+SR sigmaR & 0.600 & -6 & - & - & None\\
+SR regime & 0.000 & -99 & - & - & None\\
+SR autocorr & 0.000 & -99 & - & - & None\\
+Early RecrDev 1961 & 0.401 & 3 & act & 0.502983 & dev (NA, NA)\\
+Main RecrDev 1962 & -0.310 & 1 & act & 0.5281 & dev (NA, NA)\\
+Main RecrDev 1963 & -0.146 & 1 & act & 0.525021 & dev (NA, NA)\\
+Main RecrDev 1964 & -0.181 & 1 & act & 0.523987 & dev (NA, NA)\\
+Main RecrDev 1965 & -0.361 & 1 & act & 0.516361 & dev (NA, NA)\\
+Main RecrDev 1966 & -0.377 & 1 & act & 0.512917 & dev (NA, NA)\\
+Main RecrDev 1967 & -0.403 & 1 & act & 0.507653 & dev (NA, NA)\\
+Main RecrDev 1968 & -0.419 & 1 & act & 0.50438 & dev (NA, NA)\\
+Main RecrDev 1969 & -0.265 & 1 & act & 0.489923 & dev (NA, NA)\\
+Main RecrDev 1970 & -0.469 & 1 & act & 0.494869 & dev (NA, NA)\\
+Main RecrDev 1971 & -0.514 & 1 & act & 0.487127 & dev (NA, NA)\\
+Main RecrDev 1972 & -0.542 & 1 & act & 0.48257 & dev (NA, NA)\\
+Main RecrDev 1973 & -0.416 & 1 & act & 0.470845 & dev (NA, NA)\\
+Main RecrDev 1974 & -0.447 & 1 & act & 0.463433 & dev (NA, NA)\\
+Main RecrDev 1975 & -0.617 & 1 & act & 0.470639 & dev (NA, NA)\\
+Main RecrDev 1976 & -0.413 & 1 & act & 0.457774 & dev (NA, NA)\\
+Main RecrDev 1977 & -0.246 & 1 & act & 0.457334 & dev (NA, NA)\\
+Main RecrDev 1978 & 0.083 & 1 & act & 0.462145 & dev (NA, NA)\\
+Main RecrDev 1979 & 0.918 & 1 & act & 0.329273 & dev (NA, NA)\\
+Main RecrDev 1980 & 0.053 & 1 & act & 0.446429 & dev (NA, NA)\\
+Main RecrDev 1981 & -0.293 & 1 & act & 0.459389 & dev (NA, NA)\\
+Main RecrDev 1982 & 0.096 & 1 & act & 0.359725 & dev (NA, NA)\\
+Main RecrDev 1983 & -0.696 & 1 & act & 0.438068 & dev (NA, NA)\\
+Main RecrDev 1984 & -0.544 & 1 & act & 0.405129 & dev (NA, NA)\\
+Main RecrDev 1985 & -0.319 & 1 & act & 0.406255 & dev (NA, NA)\\
+Main RecrDev 1986 & 0.271 & 1 & act & 0.312356 & dev (NA, NA)\\
+Main RecrDev 1987 & -0.120 & 1 & act & 0.387596 & dev (NA, NA)\\
+Main RecrDev 1988 & -0.149 & 1 & act & 0.349932 & dev (NA, NA)\\
+Main RecrDev 1989 & -0.394 & 1 & act & 0.402682 & dev (NA, NA)\\
+Main RecrDev 1990 & -0.037 & 1 & act & 0.336222 & dev (NA, NA)\\
+Main RecrDev 1991 & -0.035 & 1 & act & 0.407393 & dev (NA, NA)\\
+Main RecrDev 1992 & 0.976 & 1 & act & 0.27623 & dev (NA, NA)\\
+Main RecrDev 1993 & 1.904 & 1 & act & 0.155751 & dev (NA, NA)\\
+Main RecrDev 1994 & 1.855 & 1 & act & 0.14828 & dev (NA, NA)\\
+Main RecrDev 1995 & 0.794 & 1 & act & 0.264997 & dev (NA, NA)\\
+Main RecrDev 1996 & 0.668 & 1 & act & 0.216913 & dev (NA, NA)\\
+Main RecrDev 1997 & 0.384 & 1 & act & 0.262629 & dev (NA, NA)\\
+Main RecrDev 1998 & 1.758 & 1 & act & 0.0976628 & dev (NA, NA)\\
+Main RecrDev 1999 & 0.759 & 1 & act & 0.166544 & dev (NA, NA)\\
+Main RecrDev 2000 & -0.383 & 1 & act & 0.254929 & dev (NA, NA)\\
+Main RecrDev 2001 & -0.524 & 1 & act & 0.228807 & dev (NA, NA)\\
+Main RecrDev 2002 & -0.626 & 1 & act & 0.234313 & dev (NA, NA)\\
+Main RecrDev 2003 & -0.957 & 1 & act & 0.256931 & dev (NA, NA)\\
+Main RecrDev 2004 & -0.783 & 1 & act & 0.249366 & dev (NA, NA)\\
+Main RecrDev 2005 & 1.258 & 1 & act & 0.102519 & dev (NA, NA)\\
+Main RecrDev 2006 & 0.247 & 1 & act & 0.174997 & dev (NA, NA)\\
+Main RecrDev 2007 & -0.449 & 1 & act & 0.227476 & dev (NA, NA)\\
+Main RecrDev 2008 & -0.599 & 1 & act & 0.254319 & dev (NA, NA)\\
+Main RecrDev 2009 & -0.052 & 1 & act & 0.202398 & dev (NA, NA)\\
+Main RecrDev 2010 & -0.311 & 1 & act & 0.237927 & dev (NA, NA)\\
+Main RecrDev 2011 & -0.730 & 1 & act & 0.312447 & dev (NA, NA)\\
+Main RecrDev 2012 & 0.514 & 1 & act & 0.184045 & dev (NA, NA)\\
+Main RecrDev 2013 & -0.360 & 1 & act & 0.324163 & dev (NA, NA)\\
+Main RecrDev 2014 & 0.823 & 1 & act & 0.273872 & dev (NA, NA)\\
+Main RecrDev 2015 & 1.738 & 1 & act & 0.293244 & dev (NA, NA)\\
+Main RecrDev 2016 & -0.324 & 1 & act & 0.544964 & dev (NA, NA)\\
+Main RecrDev 2017 & -0.064 & 1 & act & 0.596996 & dev (NA, NA)\\
+Main RecrDev 2018 & -0.075 & 1 & act & 0.594571 & dev (NA, NA)\\
+Main RecrDev 2019 & -0.075 & 1 & act & 0.594573 & dev (NA, NA)\\
+Main RecrDev 2020 & -0.075 & 1 & act & 0.594573 & dev (NA, NA)\\
+ForeRecr 2021 & 0.000 & 5 & act & 0.6 & dev (NA, NA)\\
+ForeRecr 2022 & 0.000 & 5 & act & 0.6 & dev (NA, NA)\\
+InitF seas 1 flt 1Commercial & 0.000 & -1 & - & - & None\\
+InitF seas 1 flt 2Recreational & 0.000 & -1 & - & - & None\\
+LnQ base Recreational(2) & -5.723 & -1 & - & - & None\\
+Q extraSD Recreational(2) & 0.081 & 3 & OK & 0.0227712 & None\\
+Size DblN peak Commercial(1) & 43.670 & 2 & OK & 0.713312 & None\\
+Size DblN top logit Commercial(1) & 15.000 & -1 & - & - & None\\
+Size DblN ascend se Commercial(1) & 3.728 & 2 & OK & 0.182659 & None\\
+Size DblN descend se Commercial(1) & -15.000 & -1 & - & - & None\\
+Size DblN start logit Commercial(1) & -15.000 & -2 & - & - & None\\
+Size DblN end logit Commercial(1) & 15.000 & -1 & - & - & None\\
+Size DblN peak Recreational(2) & 44.443 & 2 & OK & 0.828114 & None\\
+Size DblN top logit Recreational(2) & 15.000 & -1 & - & - & None\\
+Size DblN ascend se Recreational(2) & 4.298 & 2 & OK & 0.153315 & None\\
+Size DblN descend se Recreational(2) & -15.000 & -1 & - & - & None\\
+Size DblN start logit Recreational(2) & -15.000 & -2 & - & - & None\\
+Size DblN end logit Recreational(2) & 15.000 & -1 & - & - & None\\*
+\end{longtable}
+\endgroup{}
+\end{landscape}
+\endgroup{}
+
+<!-- ======================================================= -->
+<!-- ***********    Like Contributions  ******************** --> 
+<!-- ======================================================= -->
+
+\include{tex_tables/likelihoods.tex}
+
+<!-- ======================================================= -->
+<!-- ***********       Time Series      ******************** --> 
+<!-- ======================================================= -->
+
+\include{tex_tables/e_ReferencePoints_ES.tex}
+
+\newpage
+
+\include{tex_tables/TimeSeries.tex}
+
+\newpage
+
 <!--chapter:end:52tables.Rmd-->
 
 \clearpage
@@ -570,10 +725,10 @@ Here are all the mad props!
 ![Pearson residuals for the commercial (top panel) and recreational (bottom panel) fleet. Closed bubble are positive residuals (observed > expected) and open bubbles are negative residuals (observed < expected).\label{fig:com-rec-pearson}](C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference model/plots/comp_lenfit__multi-fleet_comparison.png){width=100% height=100% alt="Pearson residuals for the commercial (top panel) and recreational (bottom panel) fleet. Closed bubble are positive residuals (observed > expected) and open bubbles are negative residuals (observed < expected)."}
 
 
-![Mean length index from the commercial fishery with 95 percent confidence intervals based on sample sizes and data weighting.\label{fig:com-mean-len-fit}](C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference model/plots/comp_lendat_data_weighting_TA1.8_Commercial.png){width=100% height=100% alt="Mean length index from the commercial fishery with 95 percent confidence intervals based on sample sizes and data weighting."}
+![Mean length index from the commercial fishery with 95 percent confidence intervals based on sample sizes and data weighting.\label{fig:com-mean-len-fit}](C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_Commercial_fit.png){width=100% height=100% alt="Mean length index from the commercial fishery with 95 percent confidence intervals based on sample sizes and data weighting."}
 
 
-![Mean length index from the recreational fishery with 95 percent confidence intervals based on sample sizes and data weighting.\label{fig:rec-mean-len-fit}](C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference model/plots/comp_lendat_data_weighting_TA1.8_Commercial.png){width=100% height=100% alt="Mean length index from the recreational fishery with 95 percent confidence intervals based on sample sizes and data weighting."}
+![Mean length index from the recreational fishery with 95 percent confidence intervals based on sample sizes and data weighting.\label{fig:rec-mean-len-fit}](C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_Recreational_fit.png){width=100% height=100% alt="Mean length index from the recreational fishery with 95 percent confidence intervals based on sample sizes and data weighting."}
 
 
 ![Aggregated length comps over all years.\label{fig:agg-len-fit}](C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference model/plots/comp_lenfit__aggregated_across_time.png){width=100% height=100% alt="Aggregated length comps over all years."}
@@ -584,10 +739,10 @@ Here are all the mad props!
 <!-- ====================================================================== -->
 
 
-![Mean age from conditional age-at-length data for the Commercial.\label{fig:com-mean-caal}](C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference model/plots/comp_condAALdat_data_weighting_TA1.8_condAgeCommercial.png){width=100% height=100% alt="Mean age from conditional age-at-length data for the Commercial."}
+![Mean age from conditional age-at-length data for the Commercial.\label{fig:com-mean-caal}](C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference model/plots/comp_condAALfit_data_weighting_TA1.8_condAgeCommercial_fit.png){width=100% height=100% alt="Mean age from conditional age-at-length data for the Commercial."}
 
 
-![Mean age observations from the conditional age-at-length data from the Recreational fishery.\label{fig:rec-mean-caal}](C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference model/plots/comp_condAALdat_data_weighting_TA1.8_condAgeRecreational.png){width=100% height=100% alt="Mean age observations from the conditional age-at-length data from the Recreational fishery."}
+![Mean age observations from the conditional age-at-length data from the Recreational fishery.\label{fig:rec-mean-caal}](C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference model/plots/comp_condAALfit_data_weighting_TA1.8_condAgeRecreational_fit.png){width=100% height=100% alt="Mean age observations from the conditional age-at-length data from the Recreational fishery."}
 
 
 <!-- ====================================================================== -->
@@ -607,15 +762,65 @@ Here are all the mad props!
 
 ![Length-based selectivity curves for the commercial and recreational fisheries.\label{fig:fleet_selectivity}](C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference model/plots/sel01_multiple_fleets_length1.png){width=100% height=100% alt="Length-based selectivity curves for the commercial and recreational fisheries."}
 
+
+<!-- ======================================================= -->  
+<!-- ****************** Time Series ************************ --> 
+<!-- ======================================================= -->
+
+
+
+![Estimated time series of spawning biomass.\label{fig:ssb}](C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference model/plots/ts7_Spawning_output_with_95_asymptotic_intervals_intervals.png){width=100% height=100% alt="Estimated time series of spawning biomass."}
+
+
+![Estimated time series of total biomass.\label{fig:tot-bio}](C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference model/plots/ts1_Total_biomass_(mt).png){width=100% height=100% alt="Estimated time series of total biomass."}
+
+
+![Estimated time series of fraction of unfished spawning biomass.\label{fig:depl}](C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference model/plots/ts9_Relative_spawning_output_intervals.png){width=100% height=100% alt="Estimated time series of fraction of unfished spawning biomass."}
+
+
+![Estimated time series of age-0 recruits (1000s).\label{fig:recruits}](C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference model/plots/ts11_Age-0_recruits_(1000s)_with_95_asymptotic_intervals.png){width=100% height=100% alt="Estimated time series of age-0 recruits (1000s)."}
+
+
+![Estimated time series of recruitment deviations.\label{fig:rec-devs}](C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference model/plots/recdevs2_withbars.png){width=100% height=100% alt="Estimated time series of recruitment deviations."}
+
+
+![Recruitment deviations variance by year. This plot tracks the information content contained in each recruitment deviation. Values below the red line (assumed recruitment variability) indicates years with more informed recruitment deviations.\label{fig:rec-devs-sigmas}](C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference model/plots/recdevs3_varcheck.png){width=100% height=100% alt="Recruitment deviations variance by year. This plot tracks the information content contained in each recruitment deviation. Values below the red line (assumed recruitment variability) indicates years with more informed recruitment deviations."}
+
+
+![Stock-recruit curve. Point colors indicate year, with warmer colors indicating earlier years and cooler colors in showing later years.\label{fig:bh-curve}](C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference model/plots/SR_curve.png){width=100% height=100% alt="Stock-recruit curve. Point colors indicate year, with warmer colors indicating earlier years and cooler colors in showing later years."}
+
+
+![Recruitment bias adjustment applied in the base model.\label{fig:bias-adj}](C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference model/plots/recruit_fit_bias_adjust.png){width=100% height=100% alt="Recruitment bias adjustment applied in the base model."}
+
+
+
+![Stock recruit curve where point color indicate year, with warmer colors (yellow to green) indicating earlier years and cooler colors (blue) showing later years.\label{fig:sr-curve}](C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference model/plots/SR_curve.png){width=100% height=100% alt="Stock recruit curve where point color indicate year, with warmer colors (yellow to green) indicating earlier years and cooler colors (blue) showing later years."}
+
+
+<!-- ====================================================================== -->
+<!-- ******************    Reference Points    **************************** --> 
+<!-- ====================================================================== -->
+
+
+
+![Estimated 1 - relative spawning ratio (SPR) by year.\label{fig:1-spr}](C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference model/plots/SPR2_minusSPRseries.png){width=100% height=100% alt="Estimated 1 - relative spawning ratio (SPR) by year."}
+
+\clearpage
+
+
+![Phase plot of the relative biomass (also referred to as fraction unfished) versus the SPR ratio where each point represents the biomass ratio at the start of the year and the relative fishing intensity in that same year. Lines through the final point show the 95 percent intervals based on the asymptotic uncertainty for each dimension. The shaded ellipse is a 95 percent region which accounts for the estimated correlations between the biomass ratio and SPR ratio.\label{fig:phase}](C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference model/plots/SPR4_phase.png){width=100% height=100% alt="Phase plot of the relative biomass (also referred to as fraction unfished) versus the SPR ratio where each point represents the biomass ratio at the start of the year and the relative fishing intensity in that same year. Lines through the final point show the 95 percent intervals based on the asymptotic uncertainty for each dimension. The shaded ellipse is a 95 percent region which accounts for the estimated correlations between the biomass ratio and SPR ratio."}
+
+
+![Equilibrium yield curve for the base case model. Values are based on the 2020
+fishery selectivities and with steepness fixed at 0.80.\label{fig:yield}](C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference model/plots/yield2_yield_curve_with_refpoints.png){width=100% height=100% alt="Equilibrium yield curve for the base case model. Values are based on the 2020
+fishery selectivities and with steepness fixed at 0.80."}
+
+
 <!--chapter:end:53figures.Rmd-->
 
 \clearpage
 
-# Appendix A. Summary of California Management Measures  
-
-Appendix A can be found in the separate file "California Nearshore Regulation History.pdf".
-
-# Appendix B. Detailed Fit to Length Composition Data 
+# Appendix A: Detailed Fit to Length Composition Data 
 
 
 ![Length comps, whole catch, Commercial.<br><br>'N adj.' is the input sample size after data-weighting adjustment. N eff. is the calculated effective sample size used in the McAllister-Ianelli tuning method..\label{fig:comp_lenfit_flt1mkt0}](C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference model/plots/comp_lenfit_flt1mkt0.png){width=100% height=100% alt="Length comps, whole catch, Commercial.<br><br>'N adj.' is the input sample size after data-weighting adjustment. N eff. is the calculated effective sample size used in the McAllister-Ianelli tuning method.."}
@@ -624,9 +829,26 @@ Appendix A can be found in the separate file "California Nearshore Regulation Hi
 
 ![Length comps, whole catch, Recreational (plot 2 of 2).\label{fig:comp_lenfit_flt2mkt0_page2}](C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference model/plots/comp_lenfit_flt2mkt0_page2.png){width=100% height=100% alt="Length comps, whole catch, Recreational (plot 2 of 2)."}
 
-# Detailed Fit to Conditional-Age-at-Length Composition Data
+\clearpage
+
+# Appendix B: Detailed Fit to Conditional-Age-at-Length Composition Data {#detailed-caal}
 
 
+![Pearson residuals, whole catch, Commercial (max=30.56) (plot 1 of 4) (plot 2 of 4).\label{fig:comp_condAALfit_residsflt1mkt0_page2}](C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference model/plots/comp_condAALfit_residsflt1mkt0_page2.png){width=100% height=100% alt="Pearson residuals, whole catch, Commercial (max=30.56) (plot 1 of 4) (plot 2 of 4)."}
+
+![Pearson residuals, whole catch, Commercial (max=30.56) (plot 1 of 4) (plot 2 of 4) (plot 3 of 4).\label{fig:comp_condAALfit_residsflt1mkt0_page3}](C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference model/plots/comp_condAALfit_residsflt1mkt0_page3.png){width=100% height=100% alt="Pearson residuals, whole catch, Commercial (max=30.56) (plot 1 of 4) (plot 2 of 4) (plot 3 of 4)."}
+
+![Pearson residuals, whole catch, Commercial (max=30.56) (plot 1 of 4) (plot 2 of 4) (plot 3 of 4) (plot 4 of 4).\label{fig:comp_condAALfit_residsflt1mkt0_page4}](C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference model/plots/comp_condAALfit_residsflt1mkt0_page4.png){width=100% height=100% alt="Pearson residuals, whole catch, Commercial (max=30.56) (plot 1 of 4) (plot 2 of 4) (plot 3 of 4) (plot 4 of 4)."}
+
+![Pearson residuals, whole catch, Recreational (max=30.63) (plot 1 of 3).\label{fig:comp_condAALfit_residsflt2mkt0_page1}](C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page1.png){width=100% height=100% alt="Pearson residuals, whole catch, Recreational (max=30.63) (plot 1 of 3)."}
+
+![Pearson residuals, whole catch, Recreational (max=30.63) (plot 1 of 3) (plot 2 of 3).\label{fig:comp_condAALfit_residsflt2mkt0_page2}](C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page2.png){width=100% height=100% alt="Pearson residuals, whole catch, Recreational (max=30.63) (plot 1 of 3) (plot 2 of 3)."}
+
+![Pearson residuals, whole catch, Recreational (max=30.63) (plot 1 of 3) (plot 2 of 3) (plot 3 of 3).\label{fig:comp_condAALfit_residsflt2mkt0_page3}](C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page3.png){width=100% height=100% alt="Pearson residuals, whole catch, Recreational (max=30.63) (plot 1 of 3) (plot 2 of 3) (plot 3 of 3)."}
+
+\clearpage
+
+# Appendix C: Detailed Fit to Conditional-Age-at-Length Composition Data {#detailed-caal}
 
 
 ![Pearson residuals, whole catch, Commercial (max=30.56) (plot 1 of 4) (plot 2 of 4).\label{fig:comp_condAALfit_residsflt1mkt0_page2}](C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/models/Reference model/plots/comp_condAALfit_residsflt1mkt0_page2.png){width=100% height=100% alt="Pearson residuals, whole catch, Commercial (max=30.56) (plot 1 of 4) (plot 2 of 4)."}

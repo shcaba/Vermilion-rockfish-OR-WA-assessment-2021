@@ -12,7 +12,7 @@ Stock Synthesis version 3.30.16 was used as the statistical catch-at-age modelli
 
 ### Bridging Analysis
 
-No bridgining analysis between the DBSRA model and Stock Synthesis was conducted given the significant differences (DBSRA is provided the depletion value) between the methods. It is well documented already that SS can mimic DBSRA approaches (@cope_implementing_2013).
+No bridgining analysis between the DBSRA model and Stock Synthesis was conducted given the significant differences (DBSRA is provided the depletion value) between the methods. It is well documented already that SS can mimic DBSRA approaches [@cope_implementing_2013].
 
 
 ## Model Structure and Assumptions

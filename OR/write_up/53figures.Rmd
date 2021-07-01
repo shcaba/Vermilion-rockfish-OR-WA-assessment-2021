@@ -123,14 +123,14 @@ label = 'com-rec-pearson')
 
 ```{r, results = 'asis'}
 add_figure(
-filein = file.path(mod_loc, "plots", "comp_lendat_data_weighting_TA1.8_Commercial.png"), 
+filein = file.path(mod_loc, "plots", "comp_lenfit_data_weighting_TA1.8_Commercial_fit.png"), 
 caption = "Mean length index from the commercial fishery with 95 percent confidence intervals based on sample sizes and data weighting",
 label = 'com-mean-len-fit')
 ```
 
 ```{r, results = 'asis'}
 add_figure(
-filein = file.path(mod_loc, "plots", "comp_lendat_data_weighting_TA1.8_Commercial.png"), 
+filein = file.path(mod_loc, "plots", "comp_lenfit_data_weighting_TA1.8_Recreational_fit.png"), 
 caption = "Mean length index from the recreational fishery with 95 percent confidence intervals based on sample sizes and data weighting",
 label = 'rec-mean-len-fit')
 ```
@@ -149,14 +149,14 @@ label = 'agg-len-fit')
 
 ```{r, results = 'asis'}
 add_figure(
-filein = file.path(mod_loc, "plots", "comp_condAALdat_data_weighting_TA1.8_condAgeCommercial.png"), 
+filein = file.path(mod_loc, "plots", "comp_condAALfit_data_weighting_TA1.8_condAgeCommercial_fit.png"), 
 caption = "Mean age from conditional age-at-length data for the Commercial",
 label = 'com-mean-caal')
 ```
 
 ```{r, results = 'asis'}
 add_figure(
-filein = file.path(mod_loc, "plots", "comp_condAALdat_data_weighting_TA1.8_condAgeRecreational.png"), 
+filein = file.path(mod_loc, "plots", "comp_condAALfit_data_weighting_TA1.8_condAgeRecreational_fit.png"), 
 caption = "Mean age observations from the conditional age-at-length data from the Recreational fishery",
 label = 'rec-mean-caal')
 ```
@@ -186,3 +186,104 @@ filein = file.path(mod_loc, "plots", "sel01_multiple_fleets_length1.png"),
 caption = "Length-based selectivity curves for the commercial and recreational fisheries",
 label = 'fleet_selectivity')
 ```
+
+
+<!-- ======================================================= -->  
+<!-- ****************** Time Series ************************ --> 
+<!-- ======================================================= -->
+
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "ts7_Spawning_output_with_95_asymptotic_intervals_intervals.png"), 
+caption = "Estimated time series of spawning biomass",
+label = 'ssb')
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "ts1_Total_biomass_(mt).png"), 
+caption = "Estimated time series of total biomass",
+label = 'tot-bio')
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "ts9_Relative_spawning_output_intervals.png"), 
+caption = "Estimated time series of fraction of unfished spawning biomass",
+label = 'depl')
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "ts11_Age-0_recruits_(1000s)_with_95_asymptotic_intervals.png"), 
+caption = "Estimated time series of age-0 recruits (1000s)",
+label = 'recruits')
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "recdevs2_withbars.png"), 
+caption = "Estimated time series of recruitment deviations",
+label = 'rec-devs')
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "recdevs3_varcheck.png"), 
+caption = "Recruitment deviations variance by year. This plot tracks the information content contained in each recruitment deviation. Values below the red line (assumed recruitment variability) indicates years with more informed recruitment deviations",
+label = 'rec-devs-sigmas')
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "SR_curve.png"), 
+caption = "Stock-recruit curve. Point colors indicate year, with warmer colors indicating earlier years and cooler colors in showing later years",
+label = 'bh-curve')
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "recruit_fit_bias_adjust.png"),
+caption = "Recruitment bias adjustment applied in the base model",
+label = 'bias-adj')
+```
+
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "SR_curve.png"), 
+caption = "Stock recruit curve where point color indicate year, with warmer colors (yellow to green) indicating earlier years and cooler colors (blue) showing later years",
+label = 'sr-curve')
+```
+
+
+<!-- ====================================================================== -->
+<!-- ******************    Reference Points    **************************** --> 
+<!-- ====================================================================== -->
+
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "SPR2_minusSPRseries.png"), 
+caption = "Estimated 1 - relative spawning ratio (SPR) by year",
+label = '1-spr')
+```
+
+\clearpage
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "SPR4_phase.png"), 
+caption = "Phase plot of the relative biomass (also referred to as fraction unfished) versus the SPR ratio where each point represents the biomass ratio at the start of the year and the relative fishing intensity in that same year. Lines through the final point show the 95 percent intervals based on the asymptotic uncertainty for each dimension. The shaded ellipse is a 95 percent region which accounts for the estimated correlations between the biomass ratio and SPR ratio",
+label = 'phase')
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "yield2_yield_curve_with_refpoints.png"), 
+caption = "Equilibrium yield curve for the base case model. Values are based on the 2020
+fishery selectivities and with steepness fixed at 0.80",
+label = 'yield')
+```
+
